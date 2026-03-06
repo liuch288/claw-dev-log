@@ -88,3 +88,17 @@
 - 加载个人 Skills：ptracker（投资组合跟踪 CLI）、acli-jira（Jira 控制）
 - Jira issues 使用英文（规则写入 MEMORY.md）
 
+---
+
+## 2026-03-05
+
+### Jira 项目管理
+- 列出 CLQ 项目所有 issues 状态
+- 批量转换 CLQ-11, CLQ-14, CLQ-15 为"已完成"
+- 尝试修改 Epic 类型失败（项目不支持 Epic 类型）
+- 查看 RBT 相关 issues：CLQ-3 (rbt intro), CLQ-4 (RBT)
+- 创建 CLQ-16: rbt 策略运行支持bgm
+
+### 规则确认
+- Jira issues 使用英文（规则确认并写入 MEMORY.md 和 SOUL.md）
+
