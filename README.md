@@ -74,7 +74,7 @@
 - 检查分支状态：**CLQ-11_ptracker_skill**，working tree 干净
 - 创建 PR #8，审核通过后合并
 - 切回 main 分支并拉取最新代码
-- 复制 ptracker SKILL.md 到 workspace-pmanager
+- CLQ-11: develop skills（已合并到 main）
 
 ### rbt
 - 检查分支状态：**CLQ-3_rbt_docs**，有未提交更改
@@ -99,22 +99,15 @@
 - account 子命令：add, list, query, delete, deposit, withdraw
 - trade 子命令：add, list
 - query 子命令：holdings, value, realized, pnl
+- CLQ-11: develop skills → 已完成
+- CLQ-14: yahoo sym → 已完成
+- CLQ-15: option calc → 已完成
 
 ### rbt
 - 检查 rbt 分支状态：**CLQ-3_rbt_docs**
+- CLQ-3: rbt intro → 已完成
+- CLQ-16: rbt 策略运行支持bgm（新建）
 
-### Jira 项目管理
-- 列出 CLQ 项目所有 issues 状态：
-  - 🔵 正在进行: CLQ-15 (option calc), CLQ-14 (yahoo sym), CLQ-13 (save link to pdf), CLQ-11 (develop skills)
-  - ✅ 已完成: CLQ-12, CLQ-10, CLQ-9, CLQ-5, CLQ-8, CLQ-7, CLQ-2
-  - ⚪ 待办: CLQ-6, CLQ-3, CLQ-4, CLQ-1
-- 批量转换 CLQ-11, CLQ-14, CLQ-15 为"已完成"
-- 尝试修改 Epic 类型失败（项目不支持 Epic 类型，可用类型：任务、长篇故事、子任务）
-- 确认 CLQ-1, CLQ-4, CLQ-6 已是长篇故事(Story)类型
-- 查看 RBT 相关 issues：CLQ-3 (rbt intro), CLQ-4 (RBT)
-- 将 CLQ-3 转为已完成
-- 创建 CLQ-16: rbt 策略运行支持bgm
-
-### 规则确认
-- Jira issues 使用英文（规则确认并写入 MEMORY.md 和 SOUL.md）
+### 基础设施
+- Jira issues 使用英文（规则写入 MEMORY.md 和 SOUL.md）
 
