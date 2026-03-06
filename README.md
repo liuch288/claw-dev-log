@@ -111,3 +111,29 @@
 ### 基础设施
 - Jira issues 使用英文（规则写入 MEMORY.md 和 SOUL.md）
 
+---
+
+## 2026-03-06
+
+### rbt
+- 重新构建 rbt whl (v0.5) 并安装到系统
+- CLQ-24: Add KlineDMU（新建 Jira）
+- 创建分支 **CLQ-24_kline_dmu**
+- 提交并推送 KlineDMU 代码
+
+### fq (factor_quote)
+- 检查分支状态：**main**，有 1 个未 push 的 commit
+- 软撤销 commit（保留改动）
+- CLQ-23: Develop Factor Quote Strategy（新建 Jira）
+- 创建分支 **CLQ-23_factor_quote_strategy**
+- 提交 FuturesMdEngine 代码并推送到远程
+- 推送 4 个 commit（含 run_example.py, spread_plot.png）
+- 展示 fq 项目改动内容：
+  - `local_rbt/__init__.py` - 导出 FuturesMdEngine
+  - `local_rbt/futures_md_engine.py` - 继承 rbt.md.MdEngine，接入 FuturesDB
+  - `run_example.py` - 回测演示脚本
+
+### claw-dev-log
+- 克隆仓库到 ~/dev/claw-dev-log
+- 创建 README.md 并推送初始 commit
+
