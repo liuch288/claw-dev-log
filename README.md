@@ -92,11 +92,27 @@
 
 ## 2026-03-05
 
+### ptracker
+- 检查分支状态：**CLQ-11_ptracker_skill**，working tree 干净
+- 查看并理解 ptracker 项目结构（投资组合跟踪 CLI 工具）
+- 列出 ptracker CLI 命令：init, version, account, trade, query, config
+- account 子命令：add, list, query, delete, deposit, withdraw
+- trade 子命令：add, list
+- query 子命令：holdings, value, realized, pnl
+
+### rbt
+- 检查 rbt 分支状态：**CLQ-3_rbt_docs**
+
 ### Jira 项目管理
-- 列出 CLQ 项目所有 issues 状态
+- 列出 CLQ 项目所有 issues 状态：
+  - 🔵 正在进行: CLQ-15 (option calc), CLQ-14 (yahoo sym), CLQ-13 (save link to pdf), CLQ-11 (develop skills)
+  - ✅ 已完成: CLQ-12, CLQ-10, CLQ-9, CLQ-5, CLQ-8, CLQ-7, CLQ-2
+  - ⚪ 待办: CLQ-6, CLQ-3, CLQ-4, CLQ-1
 - 批量转换 CLQ-11, CLQ-14, CLQ-15 为"已完成"
-- 尝试修改 Epic 类型失败（项目不支持 Epic 类型）
+- 尝试修改 Epic 类型失败（项目不支持 Epic 类型，可用类型：任务、长篇故事、子任务）
+- 确认 CLQ-1, CLQ-4, CLQ-6 已是长篇故事(Story)类型
 - 查看 RBT 相关 issues：CLQ-3 (rbt intro), CLQ-4 (RBT)
+- 将 CLQ-3 转为已完成
 - 创建 CLQ-16: rbt 策略运行支持bgm
 
 ### 规则确认
