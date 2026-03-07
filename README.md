@@ -159,3 +159,27 @@
 - 仓库已在 ~/dev/claw-dev-log
 - README.md 已更新今日工作
 
+---
+
+## 2026-03-07
+
+### ptracker
+- 切换到 CLQ-26_note_display 分支
+- 从远程 main 分支 rebase 更新代码
+- 修改 query.py 和 trade.py，添加 note 显示功能（新增 format_note 函数，支持 --fullnote 参数）
+- 提交代码并 push 到 origin
+- 创建 PR #11: "CLQ-26: Add note display feature"
+- 合并 PR 并删除远程分支
+- CLQ-26: Add note display → 已完成
+
+### rbt
+- 查询仓库 PR 列表（5个已 merged）
+- 查询未完成的 Jira：CLQ-22, CLQ-20, CLQ-19, CLQ-18, CLQ-4
+- 查看当前分支：master
+- 构建 rbt-0.7 whl 并安装到 quantdev conda 环境
+
+### fq (factor_quote)
+- 检查分支状态：main
+- 软撤销 FuturesMdEngine commit（保留代码改动）
+- CLQ-23: Develop Factor Quote Strategy → 进行中
+
