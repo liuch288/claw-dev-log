@@ -183,3 +183,22 @@
 - 软撤销 FuturesMdEngine commit（保留代码改动）
 - CLQ-23: Develop Factor Quote Strategy → 进行中
 
+---
+
+## 2026-03-08
+
+### fq (factor_quote)
+- 检查分支状态：当前在 `CLQ-23_factor_quote_strategy`
+- 提交并push现有修改：41个文件，2873行新增（local_rbt2/目录下的多个DMU和IC文件）
+- CLQ-23: Develop Factor Quote Strategy → 进行中
+
+### rbt
+- 查询分支状态：当前在 `master`
+- 创建 Jira issue: CLQ-27 - 增加更多DMU和IC
+- 创建并切换到新分支：`CLQ-27_add_more_dmu_ic`
+- CLQ-22: RBT save data in binary format → 已完成
+- 查看本地修改（后应用户要求恢复）：mos_recover_ic.py（优化器改为CLARABEL）、constants.py（新增AG白银期货配置）
+
+### 基础设施
+- 处理 GLM-5 配额限制，切换到 MiniMax-M2.5 模型
+
