@@ -27,50 +27,6 @@
 
 ---
 
-## 2026-03-08
-
-### fq (factor_quote)
-- 检查分支状态：当前在 `CLQ-23_factor_quote_strategy`
-- 提交并push现有修改：41个文件，2873行新增（local_rbt2/目录下的多个DMU和IC文件）
-- CLQ-23: Develop Factor Quote Strategy → 进行中
-
-### rbt
-- 查询分支状态：当前在 `master`
-- 创建 Jira issue: CLQ-27 - 增加更多DMU和IC
-- 创建并切换到新分支：`CLQ-27_add_more_dmu_ic`
-- CLQ-22: RBT save data in binary format → 已完成
-- 查看本地修改（后应用户要求恢复）：mos_recover_ic.py（优化器改为CLARABEL）、constants.py（新增AG白银期货配置）
-
-### 基础设施
-- 处理 GLM-5 配额限制，切换到 MiniMax-M2.5 模型
-
----
-
-## 2026-03-09
-
-### rbt
-- 检查分支状态：CLQ-28_pnl_peu
-- CLQ-28: 创建损益分析PEU Jira，创建分支 CLQ-28_pnl_peu
-- 提交PEU分析文档（PEU分析文档.md）和pnl_estimate_unit.py完善（+353行）
-- 创建FixedHoldingPEU（固定持有期限PEU），提交并推送到 origin
-- CLQ-30: 创建PassThroughDMU Jira，创建分支 CLQ-30_passthrough_dmu
-- 提交PassThroughDMU模块（pass_through_dmu.py + README.md + __init__.py），创建PR #6
-- CLQ-28: 损益分析PEU → 进行中
-- CLQ-30: PassThroughDMU → 已创建PR
-
-### fq (factor_quote)
-- 分支 CLQ-23_factor_quote_strategy
-- 添加 .gitignore（忽略 __pycache__/、local_rbt2/、*.png 等）
-- 取消跟踪 local_rbt/__pycache__/
-- 提交并推送到远程
-
-### factor_view (fv)
-- 新建项目 ~/dev/factor_view
-- 初始化仓库并推送到 GitHub: https://github.com/liuch288/factor_view
-- CLQ-29: 创建初始化页面Jira，创建分支 CLQ-29_init_page
-
----
-
 ## 2026-02-10
 
 ### ClawQuant
@@ -246,3 +202,48 @@
 ### 基础设施
 - 处理 GLM-5 配额限制，切换到 MiniMax-M2.5 模型
 
+
+---
+
+
+## 2026-03-08
+
+### fq (factor_quote)
+- 检查分支状态：当前在 `CLQ-23_factor_quote_strategy`
+- 提交并push现有修改：41个文件，2873行新增（local_rbt2/目录下的多个DMU和IC文件）
+- CLQ-23: Develop Factor Quote Strategy → 进行中
+
+### rbt
+- 查询分支状态：当前在 `master`
+- 创建 Jira issue: CLQ-27 - 增加更多DMU和IC
+- 创建并切换到新分支：`CLQ-27_add_more_dmu_ic`
+- CLQ-22: RBT save data in binary format → 已完成
+- 查看本地修改（后应用户要求恢复）：mos_recover_ic.py（优化器改为CLARABEL）、constants.py（新增AG白银期货配置）
+
+### 基础设施
+- 处理 GLM-5 配额限制，切换到 MiniMax-M2.5 模型
+
+---
+
+## 2026-03-09
+
+### rbt
+- 检查分支状态：CLQ-28_pnl_peu
+- CLQ-28: 创建损益分析PEU Jira，创建分支 CLQ-28_pnl_peu
+- 提交PEU分析文档（PEU分析文档.md）和pnl_estimate_unit.py完善（+353行）
+- 创建FixedHoldingPEU（固定持有期限PEU），提交并推送到 origin
+- CLQ-30: 创建PassThroughDMU Jira，创建分支 CLQ-30_passthrough_dmu
+- 提交PassThroughDMU模块（pass_through_dmu.py + README.md + __init__.py），创建PR #6
+- CLQ-28: 损益分析PEU → 进行中
+- CLQ-30: PassThroughDMU → 已创建PR
+
+### fq (factor_quote)
+- 分支 CLQ-23_factor_quote_strategy
+- 添加 .gitignore（忽略 __pycache__/、local_rbt2/、*.png 等）
+- 取消跟踪 local_rbt/__pycache__/
+- 提交并推送到远程
+
+### factor_view (fv)
+- 新建项目 ~/dev/factor_view
+- 初始化仓库并推送到 GitHub: https://github.com/liuch288/factor_view
+- CLQ-29: 创建初始化页面Jira，创建分支 CLQ-29_init_page
