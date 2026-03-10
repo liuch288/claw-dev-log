@@ -205,6 +205,33 @@
 
 ---
 
+## 2026-03-10
+
+### factor_view (fv)
+- 04:16 - 提交45个文件到CLQ-29_init_page分支并push
+- 04:57 - 提交DataTable.vue和table.css修改，创建PR #1并合并到main
+- 05:06 - 提交.gitignore和vite.config.js小修改到main
+- 11:07 - 创建Jira CLQ-31: [fv] Add cell marking，创建分支CLQ-31_cell_marking
+- 11:19 - 查看git diff：DataTable.vue新增200行单元格标记功能（1-9数字颜色标记）
+- 13:35 - 提交单元格标记代码，创建PR #2: "[fv] Add cell marking feature"
+- 13:36 - Squash合并PR #2到main，删除分支
+- 14:28 - 提交backend/api.py、app.py、data_loader.py、frontend/styles/table.css修改到main
+- 14:37 - 创建Jira CLQ-33: [factor_view] Beautify UI
+- CLQ-31: Add cell marking → 已合并
+- CLQ-33: Beautify UI → 待办
+
+### ptracker (pt)
+- 13:04 - 检查pt项目状态：main分支，working tree干净（只有1个未跟踪文件snapshot_cron.sh）
+- 13:06 - 记录pt简称：更新TOOLS.md和MEMORY.md
+- 13:06 - 创建Jira CLQ-32: [ptracker] Support futures positions，创建分支CLQ-32_futures_position
+
+### 基础设施
+- 13:38 - 记录Jira项目名规则：使用项目全名（factor_view, ptracker），更新MEMORY.md和AGENTS.md
+- 更新AGENTS.md：Jira格式"[项目名] 内容"，分支格式"CLQ-<序号>_<描述>"
+- 14:31 - 确认fv已push到origin（commit cde9c2c）
+
+---
+
 ## 2026-03-09
 
 ### rbt
