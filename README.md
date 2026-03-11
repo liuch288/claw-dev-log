@@ -227,6 +227,19 @@
 - 初始化仓库并推送到 GitHub: https://github.com/liuch288/factor_view
 - CLQ-29: 创建初始化页面Jira，创建分支 CLQ-29_init_page
 
+## 2026-03-11
+
+### rbt
+- 创建 Jira CLQ-40: Adjust indicator formatting
+- 创建分支 CLQ-40_adjust_indicator_formatting
+
+### factor_store (fs)
+- 添加项目结构和核心功能（factorstore/, tests/, examples/, pyproject.toml, setup.py, .gitignore, README.md）
+- 提交到 CLQ-35_project_init 分支并 push 到远程
+- 合并到 main 并 push
+- 创建 PR #1: https://github.com/liuch288/factor_store/pull/1
+- 删除本地和远程的 CLQ-35_PR 和 CLQ-35_project_init 分支，仅保留 main 分支
+
 ---
 
 ## 2026-03-10
