@@ -227,34 +227,6 @@
 - 初始化仓库并推送到 GitHub: https://github.com/liuch288/factor_view
 - CLQ-29: 创建初始化页面Jira，创建分支 CLQ-29_init_page
 
-## 2026-03-11
-
-### rbt
-- 创建 Jira CLQ-40: Adjust indicator formatting
-- 创建分支 CLQ-40_adjust_indicator_formatting
-
-### factor_store (fs)
-- 添加项目结构和核心功能（factorstore/, tests/, examples/, pyproject.toml, setup.py, .gitignore, README.md）
-- 提交到 CLQ-35_project_init 分支并 push 到远程
-- 合并到 main 并 push
-- 创建 PR #1: https://github.com/liuch288/factor_store/pull/1
-- 删除本地和远程的 CLQ-35_PR 和 CLQ-35_project_init 分支，仅保留 main 分支
-
-## 2026-03-12
-
-### factor_store (fs)
-- 优化包配置：
-  - pyproject.toml: 使用 dynamic 版本管理 dependencies 和 optional-dependencies
-  - setup.py: 排除 tests、tests.*、examples 目录，安装时不包含测试和示例代码
-- CLQ-35: Project init → 已完成
-
-### rbt
-- 创建 Jira CLQ-40: Adjust indicator formatting
-- 创建分支 CLQ-40_adjust_indicator_formatting
-- CLQ-40: Adjust indicator formatting → 待办
-
----
-
 ## 2026-03-10
 
 ### factor_view (fv)
@@ -281,3 +253,20 @@
 - 记录Jira项目名规则：使用项目全名（factor_view, ptracker），更新MEMORY.md和AGENTS.md
 - 更新AGENTS.md：Jira格式"[项目名] 内容"，分支格式"CLQ-<序号>_<描述>"
 - 确认fv已push到origin
+
+## 2026-03-11
+
+### rbt
+- 创建 Jira CLQ-40: Adjust indicator formatting
+- 创建分支 CLQ-40_adjust_indicator_formatting
+
+### factor_store (fs)
+- 添加项目结构和核心功能（factorstore/, tests/, examples/, pyproject.toml, setup.py, .gitignore, README.md）
+- 提交到 CLQ-35_project_init 分支并 push 到远程
+- 合并到 main 并 push
+- 创建 PR #1: https://github.com/liuch288/factor_store/pull/1
+- 删除本地和远程的 CLQ-35_PR 和 CLQ-35_project_init 分支，仅保留 main 分支
+- 优化包配置：
+  - pyproject.toml: 使用 dynamic 版本管理 dependencies 和 optional-dependencies
+  - setup.py: 排除 tests、tests.*、examples 目录，安装时不包含测试和示例代码
+- CLQ-35: Project init → 已完成
