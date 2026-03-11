@@ -240,6 +240,19 @@
 - 创建 PR #1: https://github.com/liuch288/factor_store/pull/1
 - 删除本地和远程的 CLQ-35_PR 和 CLQ-35_project_init 分支，仅保留 main 分支
 
+## 2026-03-12
+
+### factor_store (fs)
+- 优化包配置：
+  - pyproject.toml: 使用 dynamic 版本管理 dependencies 和 optional-dependencies
+  - setup.py: 排除 tests、tests.*、examples 目录，安装时不包含测试和示例代码
+- CLQ-35: Project init → 已完成
+
+### rbt
+- 创建 Jira CLQ-40: Adjust indicator formatting
+- 创建分支 CLQ-40_adjust_indicator_formatting
+- CLQ-40: Adjust indicator formatting → 待办
+
 ---
 
 ## 2026-03-10
