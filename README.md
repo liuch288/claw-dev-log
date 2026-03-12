@@ -270,3 +270,18 @@
   - pyproject.toml: 使用 dynamic 版本管理 dependencies 和 optional-dependencies
   - setup.py: 排除 tests、tests.*、examples 目录，安装时不包含测试和示例代码
 - CLQ-35: Project init → 已完成
+
+---
+
+## 2026-03-12
+
+### rbt
+- CLQ-40: Adjust indicator formatting → pending
+- 分支: CLQ-40_adjust_indicator_formatting
+
+### factor_store (fs)
+- CLQ-35: Project init → 已完成
+- 提交代码（2个commit）：
+  - a64c7f1 - Add project structure and documentation
+  - faca93e - Update package configuration
+- 完成项目结构和核心功能开发
