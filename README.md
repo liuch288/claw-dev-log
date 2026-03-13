@@ -284,10 +284,19 @@
 - 提交代码（2个commit）：
   - a64c7f1 - Add project structure and documentation
   - faca93e - Update package configuration
-- 完成项目结构和核心功能开发## 2026-03-13
+- 完成项目结构和核心功能开发
 
-### rbt (rolled based trading)
+---
+
 ## 2026-03-13
 
 ### rbt (rolled based trading)
-**CLQ-46_time_window_dmu**: 创建新分支开发时间窗口DMU
+- CLQ-46: 创建时间窗口DMU Jira，创建分支 CLQ-46_time_window_dmu
+- 改进 TimePeriodDMU 的非交易时段处理（提交 5d69c3f）：
+  - 移除冗余的 get_param_str() 方法（由基类处理）
+  - 简化时间访问，假设 new_data.name 始终可用
+  - 非交易时段返回 'Z' 而不是 None（更明确）
+  - 更新测试用例以反映非交易时段的 Z 周期
+  - 改进代码可读性和可维护性
+- 修改文件：rbt/dmu/time_period_dmu.py（+6/-14 行）
+- CLQ-46: Time window DMU → 进行中
