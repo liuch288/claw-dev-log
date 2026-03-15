@@ -307,3 +307,39 @@
 
 ### 休息日
 - 无开发工作
+
+---
+
+## 2026-03-15
+
+### openclaw-control-center (OpenClaw Control Center)
+- 环境确认阶段：
+  - 确认 Gateway 可达：ws://127.0.0.1:18789（运行中）
+  - 确认 OPENCLAW_HOME：~/.openclaw（默认值正确）
+  - 检查 CODEX_HOME 和订阅快照（不存在，允许降级）
+  - 确认 node/npm 版本：v22.22.0 / 10.9.4
+  - 检查仓库完整性：package.json、src/runtime、src/ui 全部存在
+- 项目安装阶段：
+  - 运行依赖安装（npm install）
+- 配置安全首次接入：
+  - 复制 .env.example 创建 .env
+  - 保持安全默认值：READONLY_MODE=true、LOCAL_TOKEN_AUTH_REQUIRED=true、APPROVAL_ACTIONS_ENABLED=false、IMPORT_MUTATION_ENABLED=false
+  - 确认 GATEWAY_URL=ws://127.0.0.1:18789、UI_PORT=4310
+  - CODEX_HOME 和 OPENCLAW_SUBSCRIPTION_SNAPSHOT_PATH 保持注释（降级模式）
+- 验证安装阶段：
+  - npm run build：✅ 成功
+  - npm test：✅ 102/102 测试通过
+  - npm run smoke:ui：✅ 通过
+- 启动控制中心：
+  - npm run dev：成功启动，Gateway 连接正常
+  - 确认安全配置生效（readonlyMode、approvalActionsEnabled、importMutationEnabled 均为 false）
+  - 心跳运行完成（dry-run 模式）
+
+### rbt (rolled based trading)
+- 检查 CLQ-46 讨论前的分支状态：master 分支，刚完成 CLQ-40
+- 检查当前分支状态：
+  - 分支：master
+  - 未提交修改：README.md（版本号 0.7 → 0.8）
+  - 修改内容：添加 TimePeriodDMU 的 Changelog 和架构说明
+- 切换到 CLQ-40_adjust_indicator_formatting 分支进行开发
+- CLQ-40: Adjust indicator formatting → 进行中
