@@ -343,3 +343,42 @@
   - 修改内容：添加 TimePeriodDMU 的 Changelog 和架构说明
 - 切换到 CLQ-40_adjust_indicator_formatting 分支进行开发
 - CLQ-40: Adjust indicator formatting → 进行中
+
+---
+
+## 2026-03-16
+
+### rbt (rolled based trading)
+- CLQ-28: 切换到 CLQ-28_pnl_peu 分支，从 origin/master rebase
+- CLQ-28: 创建 PR #9 并合并（squash 模式）
+  - 合并内容：PEU分析文档.md、fixed_holding_peu.py、pnl_estimate_unit.py
+  - 新增 506 行代码
+- CLQ-49: 创建 Jira 和分支（CLQ-49_add_parameter_generation_function）
+  - 多次提交：pnl_estimate_unit.py 修改、fixed_holding_peu.py 更新
+  - 创建 PR #10 并合并（squash 模式）
+- CLQ-49: 创建新分支（CLQ-49_continue_parameter_generation）
+  - 提交：fixed_holding_peu.py 和 pnl_estimate_unit.py 修改
+  - 创建 PR #11 并合并（squash 模式）
+- CLQ-51: 创建 Jira 和分支（CLQ-51_add_contract_information_registration）
+- CLQ-28: PNL PEU → 已合并
+- CLQ-49: Add parameter generation function → 已合并
+- CLQ-51: Add contract information registration → 进行中
+
+### ai_intro
+- 多次提交并推送 ai-ppt/index.html 修改
+- 删除 ai-ppt 目录并推送
+
+### factor_quote (fq)
+- CLQ-23: Develop Factor Quote Strategy → 已完成
+- CLQ-47: 创建 Jira 和分支（CLQ-47_support_factor_calculation_save）
+
+### factor_calculator (fc)
+- 创建 GitHub 仓库：https://github.com/liuch288/factor_calculator
+- 初始化项目：README.md、.gitignore
+- CLQ-48: 创建长篇故事 Jira（Factor Calculator）
+- CLQ-50: 创建 Jira 和分支（CLQ-50_develop_basic_version）
+- fc 简称：更新 TOOLS.md
+
+### 基础设施
+- 统计过去一个月 PR 合并数：23 个（ptracker 11、rbt 9、factor_view 3）
+- 修复日报 cron 任务超时问题（timeoutSeconds: 300 → 900）
