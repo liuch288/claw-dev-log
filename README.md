@@ -349,36 +349,40 @@
 ## 2026-03-16
 
 ### rbt (rolled based trading)
-- CLQ-28: 切换到 CLQ-28_pnl_peu 分支，从 origin/master rebase
-- CLQ-28: 创建 PR #9 并合并（squash 模式）
-  - 合并内容：PEU分析文档.md、fixed_holding_peu.py、pnl_estimate_unit.py
-  - 新增 506 行代码
-- CLQ-49: 创建 Jira 和分支（CLQ-49_add_parameter_generation_function）
-  - 多次提交：pnl_estimate_unit.py 修改、fixed_holding_peu.py 更新
-  - 创建 PR #10 并合并（squash 模式）
-- CLQ-49: 创建新分支（CLQ-49_continue_parameter_generation）
-  - 提交：fixed_holding_peu.py 和 pnl_estimate_unit.py 修改
-  - 创建 PR #11 并合并（squash 模式）
-- CLQ-51: 创建 Jira 和分支（CLQ-51_add_contract_information_registration）
-- CLQ-28: PNL PEU → 已合并
-- CLQ-49: Add parameter generation function → 已合并
-- CLQ-51: Add contract information registration → 进行中
+- 从 CLQ-40_adjust_indicator_formatting 分支切换到 CLQ-28_pnl_peu 分支
+- Stash CLQ-40 分支的 README.md 修改
+- 从 origin/master rebase 更新代码（2个commits rebase成功）
+- 修改 PEU 相关文件（fixed_holding_peu.py, pnl_estimate_unit.py，+2/-2 行）
+- Commit 并 push 到 CLQ-28_pnl_peu 分支（d4828ab）
+- 创建 PR #9 并用 squash 模式合并
+- 切换回 master 分支并 pull 最新代码（679c0d3..7e4b3cd）
+- 合并后新增 4 个文件，共 506 行代码：
+  - 新增 `rbt/peu/PEU分析文档.md`
+  - 新增 `rbt/peu/fixed_holding_peu.py`（153 行）
+  - 更新 `rbt/peu/__init__.py`
+  - 更新 `rbt/peu/pnl_estimate_unit.py`（+95/-4）
+- CLQ-28: 损益分析PEU → 已完成
 
 ### ai_intro
-- 多次提交并推送 ai-ppt/index.html 修改
-- 删除 ai-ppt 目录并推送
+- Commit 并推送 ai-ppt 目录（+343 行）
+- Commit 并推送 ai-ppt/index.html 修改（+2/-22 行）
+- 再次 commit 并推送 ai-ppt/index.html 修改（+95/-276 行）
+- 抹掉未提交的修改（git restore ai-ppt/index.html）
+- 退回到上次提交（git reset --soft HEAD~1）
+- Stash 改动，pull 更新（ae86d10..d0e9abd），不恢复 stash
+- 删除 ai-ppt 目录并 commit push（-142 行）
 
-### factor_quote (fq)
-- CLQ-23: Develop Factor Quote Strategy → 已完成
-- CLQ-47: 创建 Jira 和分支（CLQ-47_support_factor_calculation_save）
+### fq (factor_quote)
+- CLQ-23: Develop Factor Quote Strategy → 标记为已完成
 
-### factor_calculator (fc)
-- 创建 GitHub 仓库：https://github.com/liuch288/factor_calculator
-- 初始化项目：README.md、.gitignore
-- CLQ-48: 创建长篇故事 Jira（Factor Calculator）
-- CLQ-50: 创建 Jira 和分支（CLQ-50_develop_basic_version）
-- fc 简称：更新 TOOLS.md
+### fc (factor_calculator)
+- 创建 Jira CLQ-47: 支持制定指标计算保存
+- 创建分支 CLQ-47_support_factor_calculation_save
+- 创建 Jira 长篇故事（Epic）CLQ-48: Factor Calculator
+- 创建新项目 ~/dev/factor_calculator
+- 初始化 git 仓库，添加远程 origin
+- 创建 README.md 和 .gitignore
+- 初始提交并推送到 main（+38 行）
 
 ### 基础设施
-- 统计过去一个月 PR 合并数：23 个（ptracker 11、rbt 9、factor_view 3）
-- 修复日报 cron 任务超时问题（timeoutSeconds: 300 → 900）
+- 更新 TOOLS.md：新增 fc 项目简称（factor_calculator）
