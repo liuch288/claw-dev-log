@@ -386,3 +386,33 @@
 
 ### 基础设施
 - 更新 TOOLS.md：新增 fc 项目简称（factor_calculator）
+
+---
+
+## 2026-03-17
+
+### rbt (rolled based trading)
+- CLQ-51: Add contract information registration (#12)
+- 新增合约信息注册功能，版本升级 0.7 → 0.8
+- 修改 4 个文件，新增 87 行代码：
+  - 新增 `rbt/md/futures_md_engine.py`（45 行）- 合约信息注册模块
+  - 更新 `rbt/strategy.py`（+24 行）- 策略合约注册支持
+  - 更新 `rbt/unit.py`（+17 行）- 单元合约配置支持
+  - 更新 `README.md`（版本号更新）
+- 创建 PR #12 并合并
+- CLQ-51: Add contract information registration → 已完成
+
+### fc (factor_calculator)
+- CLQ-50: Add basic factor calculator structure
+- 完成因子计算器基础架构开发
+- 修改 11 个文件，新增 2059 行代码：
+  - 新增 `factor_calculator/core.py`（403 行）- 核心因子计算引擎
+  - 新增 `factor_calculator/factory.py`（372 行）- 因子工厂模式实现
+  - 新增 `factor_calculator/cli.py`（171 行）- 命令行接口
+  - 新增 `examples/example_usage.py`（222 行）- Python 使用示例
+  - 新增 `examples/example_usage.ipynb`（246 行）- Jupyter 使用示例
+  - 新增 `tests/test_core.py`（211 行）- 核心功能测试
+  - 新增 `tests/test_factory.py`（216 行）- 工厂模式测试
+  - 更新 `factor_calculator/__init__.py`（+32 行）
+  - 更新 `pyproject.toml`（+22 行）- 依赖配置
+- CLQ-50: Add basic factor calculator structure → 已完成
