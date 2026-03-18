@@ -416,3 +416,21 @@
   - 更新 `factor_calculator/__init__.py`（+32 行）
   - 更新 `pyproject.toml`（+22 行）- 依赖配置
 - CLQ-50: Add basic factor calculator structure → 已完成
+
+---
+
+## 2026-03-18
+
+### rbt (rolled based trading)
+- CLQ-53: Extract resultdb base class structure
+- PR #13 "Extract resultdb base class structure" 已成功合并到远程 master 分支
+- 本地代码已与远程同步（fdba6a7 → 4daba7d）
+- CLQ-53: Extract resultdb base class → 已完成
+
+### 基础设施
+- **PR 合并规则强化**：特别强调 PR 合并必须使用 squash merge 扁平化方式
+- 更新以下核心文件：
+  - SOUL.md：添加醒目的 "🚨 PR 合并规则" 部分，包含正确和错误的命令对比
+  - MEMORY.md：在工作流程总结中强化规则
+  - AGENTS.md：在 Git/Jira 操作部分添加规则
+- 规则内容：`gh pr merge <PR_NUMBER> --squash`（正确）vs `gh pr merge <PR_NUMBER> --merge`（错误）
