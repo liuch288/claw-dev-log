@@ -422,10 +422,26 @@
 ## 2026-03-18
 
 ### rbt (rolled based trading)
-- CLQ-53: Extract resultdb base class structure
-- PR #13 "Extract resultdb base class structure" 已成功合并到远程 master 分支
-- 本地代码已与远程同步（fdba6a7 → 4daba7d）
+- CLQ-51: Add contract information registration
+- 解决本地 merge conflicts：README.md 中英文冲突，保留中文版本
+- CLQ-51, CLQ-53 任务状态更新为"已完成"
+- 清理 GitHub 分支：删除 CLQ-51_add_contract_information_registration 和 CLQ-53_resultdb-base-class 的远程和本地分支
+- CLQ-54: Create factor store result db
+  - 创建 Jira issue，parent 为 CLQ-4 (RBT)
+  - 创建并切换到分支 CLQ-54_factor-store-result-db
+  - 实现 FactorStoreResultDB（rbt/result_db/fs_result_db.py，202 行）
+  - 提交并推送到远程（commit 9d5dfc7）
+- CLQ-51: Add contract information registration → 已完成
 - CLQ-53: Extract resultdb base class → 已完成
+- CLQ-54: Create factor store result db → 进行中
+
+### factor_view (fv)
+- CLQ-55: Add column filtering functionality
+  - 创建 Jira issue，parent 为 CLQ-39 (factorview)
+  - 切换到 main 分支并 pull 最新代码
+  - 创建并切换到分支 CLQ-55_column-filtering
+  - 清理文件：删除 AI_Model_Timeline_2026.md
+- CLQ-55: Add column filtering functionality → 待办
 
 ### 基础设施
 - **PR 合并规则强化**：特别强调 PR 合并必须使用 squash merge 扁平化方式
