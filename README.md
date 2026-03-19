@@ -450,3 +450,29 @@
   - MEMORY.md：在工作流程总结中强化规则
   - AGENTS.md：在 Git/Jira 操作部分添加规则
 - 规则内容：`gh pr merge <PR_NUMBER> --squash`（正确）vs `gh pr merge <PR_NUMBER> --merge`（错误）
+
+---
+
+## 2026-03-19
+
+### rbt (rolled based trading)
+- CLQ-54: Create factor store result db (#14)
+- 合并 PR #14 到 master，新增 FactorStoreResultDB 模块
+- 修改 5 个文件，新增 182 行代码：
+  - 新增 `rbt/result_db/fs_result_db.py`（176 行）- FactorStoreResultDB 实现
+  - 更新 `rbt/result_db/__init__.py`（+3/-1 行）
+  - 更新 `.gitignore`（忽略所有 ipynb 文件）
+- CLQ-54: Create factor store result db → 已完成
+
+### fc (factor_calculator)
+- 更新 core 和 tests 以适配 FsResultDB
+- 修改 2 个文件，新增 108 行代码：
+  - `factor_calculator/core.py`（+63/-18 行）
+    - 参数 `db_directory` 改为 `root_path`（向后兼容保留 alias）
+    - 新增 `frequency` 参数（默认 "tick"）
+    - 默认使用 FsResultDB 而不是旧的 ResultDB
+    - 支持从本地 rbt 开发版本导入 FsResultDB
+  - `tests/test_core.py`（+85/-22 行）
+    - 更新测试以使用 FactorStore 格式保存和读取
+    - 修复 get_existing_factors 返回格式（factor 名称而非列名）
+- 状态：进行中（适配 FsResultDB）
