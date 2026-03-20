@@ -476,3 +476,26 @@
     - 更新测试以使用 FactorStore 格式保存和读取
     - 修复 get_existing_factors 返回格式（factor 名称而非列名）
 - 状态：进行中（适配 FsResultDB）
+
+---
+
+## 2026-03-20
+
+### factor_view (fv)
+- CLQ-55: Column filtering feature
+- Commit column filtering 功能更新（6个文件，538行新增）
+- Push 到远程，创建分支 CLQ-55_column-filtering
+- 创建 PR #4: https://github.com/liuch288/factor_view/pull/4
+- 修复暗色模式样式（dark mode styling for select dropdowns），并 push
+- 代码优化：将 json import 移到文件顶部
+- CLQ-55: Column filtering feature → PR 待合并
+
+### factor_calculator (fc)
+- CLQ-50: develop basic version
+- 查看并更新 examples/example_usage.ipynb（新增因子单元，API 变更）
+- 新增 DMU 单元：MidPositionPnlDMU, PassThroughDMU, TimePeriodDMU
+- 新增 PEU 单元：FixedHoldingPEU
+- API 变更：db_directory → root_path，新增 frequency 参数
+- 示例合约从 IF2403 改为 TL2603
+- Commit + Push（5个文件，376行新增，313行删除）
+- CLQ-50: develop basic version → 进行中
