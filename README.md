@@ -483,19 +483,41 @@
 
 ### factor_view (fv)
 - CLQ-55: Column filtering feature
-- Commit column filtering 功能更新（6个文件，538行新增）
-- Push 到远程，创建分支 CLQ-55_column-filtering
-- 创建 PR #4: https://github.com/liuch288/factor_view/pull/4
-- 修复暗色模式样式（dark mode styling for select dropdowns），并 push
-- 代码优化：将 json import 移到文件顶部
-- CLQ-55: Column filtering feature → PR 待合并
+- **第一次提交**（17:31）：
+  - Commit column filtering 功能（6个文件，538行新增）
+  - Push 到 origin，创建分支 CLQ-55_column-filtering
+  - 工作区干净
+- **第二次提交**：
+  - Commit dark mode styling fix（1个文件，93行新增）
+  - Push 到 origin
+- **第三次提交**：
+  - Commit json import refactor（将 import json 从 try 块内移到文件顶部）
+  - Push 到 origin
+- **创建 PR #4**: https://github.com/liuch288/factor_view/pull/4
+- **PR 标题**: "CLQ-55: Column filtering feature"
+- **修改文件汇总**：
+  - backend/api.py
+  - frontend/src/App.vue
+  - frontend/src/api/index.js
+  - frontend/src/components/DataTable.vue（column filtering + dark mode styling）
+  - frontend/src/composables/useDataBuffer.js
+  - frontend/src/main.js
+- **共 3 个 commits**：899a76a, e8c2ce4, 94b8d03
+- CLQ-55: Column filtering feature → PR 已创建
 
 ### factor_calculator (fc)
 - CLQ-50: develop basic version
-- 查看并更新 examples/example_usage.ipynb（新增因子单元，API 变更）
-- 新增 DMU 单元：MidPositionPnlDMU, PassThroughDMU, TimePeriodDMU
-- 新增 PEU 单元：FixedHoldingPEU
-- API 变更：db_directory → root_path，新增 frequency 参数
-- 示例合约从 IF2403 改为 TL2603
-- Commit + Push（5个文件，376行新增，313行删除）
+- **查看 git diff**：确认 examples/example_usage.ipynb 有改动
+- **新增因子单元**（更新示例文档）：
+  - DMU 类：MidPositionPnlDMU, PassThroughDMU, TimePeriodDMU
+  - PEU 类：FixedHoldingPEU
+- **API 变更**：
+  - 参数：`db_directory` → `root_path`
+  - 新增参数：`frequency`（如 "tick"）
+  - 日期格式：使用 `datetime.date` 替代字符串
+- **示例更新**：
+  - 批量创建单元示例添加 `FixedHoldingPEU(watching_mds=100)`
+  - 合约示例从 IF2403 改为 TL2603
+- **Commit + Push**（17:52）：5个文件，376行新增，313行删除
+- **未创建 PR**（用户要求"no pr"）
 - CLQ-50: develop basic version → 进行中
