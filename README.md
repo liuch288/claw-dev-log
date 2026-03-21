@@ -479,14 +479,27 @@
 
 ---
 
+## 2026-03-21
+
+### 休息日
+- 无开发工作
+
+---
+
 ## 2026-03-20
 
 ### factor_view (fv)
 - CLQ-55: Column filtering feature（3次提交）
-- 创建 PR #4（待合并）
+- 创建 PR #4（已合并）
 - 修复暗色模式样式
 
 ### factor_calculator (fc)
 - CLQ-50: develop basic version
 - 更新示例文档（新增因子单元，API 变更：db_directory→root_path）
 - Commit + Push（未创建 PR）
+
+### factor_store (fs)
+- CLQ-62: Remove cast_to_float64
+- Commit + Push
+- 创建 PR #5（已 squash 合并）
+- 切换到 main 并 pull
