@@ -6,7 +6,7 @@
 |------|---------|------|-----|----------|----------|------|------|------|
 | 2026-03-24 | CLQ-63 | rbt | [CLQ-63: Register contract info](https://github.com/liuch288/rbt/pull/18) | ✅ 可合并 | 0 | 0 | 4 | 合约参数统一注入 |
 | 2026-03-24 | CLQ-50 | factor_calculator | [CLQ-50: Develop basic version](https://github.com/liuch288/factor_calculator/pull/1) | ✅ 可合并 | 0 | 0 | 5 | 因子计算工具 |
-| 2026-03-25 | CLQ-64 | rbt | [CLQ-64: Provide dependency factor information](https://github.com/liuch288/rbt/pull/19) | ❌ 需修复 | 1 | 0 | 0 | 方法重复定义 |
+| 2026-03-25 | CLQ-64 | rbt | [CLQ-64: Provide dependency factor information](https://github.com/liuch288/rbt/pull/19) | ✅ 可合并 | 0 | 1 | 0 | 方法重复定义已修复 |
 
 ---
 
