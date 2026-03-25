@@ -21,7 +21,7 @@
 | 2026-03-16 | CLQ-28 | rbt | [CLQ-28: PNL PEU](https://github.com/liuch288/rbt/pull/9) | ✅ 可合并 | 0 | 3 | 3 | 实现 FixedHoldingPEU，建议确认 finish_time |
 | 2026-03-16 | CLQ-49 | rbt | [CLQ-49: Add parameter generation function](https://github.com/liuch288/rbt/pull/10) | ✅ 可合并 | 0 | 2 | 2 | 修改收益计算逻辑，添加参数校验 |
 | 2026-03-16 | CLQ-49 | rbt | [CLQ-49: Continue parameter generation function](https://github.com/liuch288/rbt/pull/11) | ✅ 可合并 | 0 | 0 | 2 | 新增 get_param_str() 方法 |
-| 2026-03-13 | CLQ-?? | rbt | [Add TimePeriodDMU for time-based trading periods](https://github.com/liuch288/rbt/pull/8) | ✅ 可合并 | 0 | 0 | 4 | 新增时间区间决策单元 |
+| 2026-03-13 | CLQ-46 | rbt | [Add TimePeriodDMU for time-based trading periods](https://github.com/liuch288/rbt/pull/8) | ✅ 可合并 | 0 | 0 | 4 | 新增时间区间决策单元 |
 
 ---
 
