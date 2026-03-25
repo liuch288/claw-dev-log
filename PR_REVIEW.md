@@ -4,6 +4,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-03-19 | CLQ-54 | rbt | [CLQ-54: Create factor store result db](https://github.com/liuch288/rbt/pull/14) | ⚠️ 建议修改 | 0 | 3 | 3 | 需添加 factor_store 依赖，确认返回类型 |
 | 2026-03-20 | CLQ-58 | rbt | [CLQ-58: Unit auto naming](https://github.com/liuch288/rbt/pull/15) | ✅ 可合并 | 0 | 0 | 1 | 使用 __init_subclass__ 实现自动单元命名 |
 | 2026-03-20 | CLQ-59 | rbt | [CLQ-59: Fix init bug](https://github.com/liuch288/rbt/pull/16) | ✅ 可合并 | 0 | 0 | 0 | 修复 __init__.py 缺失导入 |
 | 2026-03-20 | CLQ-55 | factor_view | [CLQ-55: Column filtering feature](https://github.com/liuch288/factor_view/pull/4) | ⚠️ 建议修改 | 1 | 2 | 2 | 需修复 end 变量重复赋值 Bug |
