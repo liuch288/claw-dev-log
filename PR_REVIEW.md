@@ -4,6 +4,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-03-19 | CLQ-56 | factor_store | [CLQ-56: Standardize date format](https://github.com/liuch288/factor_store/pull/3) | ⚠️ 建议修改 | 0 | 2 | 1 | 需修复 _use_pandas 属性初始化问题 |
 | 2026-03-19 | CLQ-57 | factor_store | [CLQ-57: Support skipping existing factors and saving specified factors](https://github.com/liuch288/factor_store/pull/4) | ✅ 可合并 | 0 | 2 | 1 | 列名前缀校验，建议更新 PR 标题 |
 | 2026-03-19 | CLQ-54 | rbt | [CLQ-54: Create factor store result db](https://github.com/liuch288/rbt/pull/14) | ⚠️ 建议修改 | 0 | 3 | 3 | 需添加 factor_store 依赖，确认返回类型 |
 | 2026-03-20 | CLQ-58 | rbt | [CLQ-58: Unit auto naming](https://github.com/liuch288/rbt/pull/15) | ✅ 可合并 | 0 | 0 | 1 | 使用 __init_subclass__ 实现自动单元命名 |
