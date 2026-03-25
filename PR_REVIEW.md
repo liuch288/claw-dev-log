@@ -4,6 +4,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-03-16 | CLQ-28 | rbt | [CLQ-28: PNL PEU](https://github.com/liuch288/rbt/pull/9) | ✅ 可合并 | 0 | 3 | 3 | 实现 FixedHoldingPEU，建议确认 finish_time |
 | 2026-03-16 | CLQ-49 | rbt | [CLQ-49: Add parameter generation function](https://github.com/liuch288/rbt/pull/10) | ✅ 可合并 | 0 | 2 | 2 | 修改收益计算逻辑，添加参数校验 |
 | 2026-03-16 | CLQ-49 | rbt | [CLQ-49: Continue parameter generation function](https://github.com/liuch288/rbt/pull/11) | ✅ 可合并 | 0 | 0 | 2 | 新增 get_param_str() 方法 |
 | 2026-03-17 | CLQ-51 | rbt | [CLQ-51: Add contract information registration](https://github.com/liuch288/rbt/pull/12) | ✅ 可合并 | 0 | 2 | 4 | 合约信息注册机制，建议确认依赖 |
