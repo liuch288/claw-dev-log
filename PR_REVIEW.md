@@ -4,6 +4,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-03-25 | CLQ-66 | rbt | [CLQ-66: Limit read range for existed data in strategy run](https://github.com/liuch288/rbt/pull/20) | ✅ 可合并 | 0 | 1 | 1 | LSP 修复正确，命名更清晰 |
 | 2026-03-25 | CLQ-64 | rbt | [CLQ-64: Provide dependency factor information](https://github.com/liuch288/rbt/pull/19) | ✅ 可合并 | 0 | 1 | 0 | 方法重复定义已修复 |
 | 2026-03-25 | CLQ-64 | rbt | [CLQ-64: Provide dependency factor information](https://github.com/liuch288/rbt/pull/19) | ❌ 需修复 | 1 | 0 | 0 | 方法重复定义 |
 | 2026-03-24 | CLQ-60 | rbt | [CLQ-60: Adjust FuturesMdEngine parameters and Unit auto-naming](https://github.com/liuch288/rbt/pull/17) | ✅ 可合并 | 0 | 1 | 2 | FuturesMdEngine 构造简化，需确认导出 |
