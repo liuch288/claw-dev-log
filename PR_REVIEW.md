@@ -9,7 +9,7 @@
 | 2026-03-24 | CLQ-60 | rbt | [CLQ-60: Adjust FuturesMdEngine parameters and Unit auto-naming](https://github.com/liuch288/rbt/pull/17) | ✅ 可合并 | 0 | 1 | 2 | FuturesMdEngine 构造简化，需确认导出 |
 | 2026-03-24 | CLQ-63 | rbt | [CLQ-63: Register contract info](https://github.com/liuch288/rbt/pull/18) | ✅ 可合并 | 0 | 0 | 4 | 合约参数统一注入 |
 | 2026-03-24 | CLQ-50 | factor_calculator | [CLQ-50: Develop basic version](https://github.com/liuch288/factor_calculator/pull/1) | ✅ 可合并 | 0 | 0 | 5 | 因子计算工具 |
-| 2026-03-21 | CLQ-?? | factor_store | [#5: 移除 cast_to_float64](https://github.com/liuch288/factor_store/pull/5) | ⚠️ 建议修改 | 0 | 2 | 2 | 有条件通过，需确认历史数据无类型不一致 |
+| 2026-03-21 | CLQ-62 | factor_store | [CLQ-62: Remove cast_to_float64 call in save method](https://github.com/liuch288/factor_store/pull/5) | ⚠️ 建议修改 | 0 | 2 | 2 | 有条件通过，需确认历史数据无类型不一致 |
 
 ---
 
