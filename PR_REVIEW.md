@@ -4,6 +4,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-03-17 | CLQ-51 | rbt | [CLQ-51: Add contract information registration](https://github.com/liuch288/rbt/pull/12) | ✅ 可合并 | 0 | 2 | 4 | 合约信息注册机制，建议确认依赖 |
 | 2026-03-18 | CLQ-?? | rbt | [Extract resultdb base class structure](https://github.com/liuch288/rbt/pull/13) | ✅ 可合并 | 0 | 1 | 4 | 抽象基类设计，建议修复 _get_path 类型注解 |
 | 2026-03-19 | CLQ-56 | factor_store | [CLQ-56: Standardize date format](https://github.com/liuch288/factor_store/pull/3) | ⚠️ 建议修改 | 0 | 2 | 1 | 需修复 _use_pandas 属性初始化问题 |
 | 2026-03-19 | CLQ-57 | factor_store | [CLQ-57: Support skipping existing factors and saving specified factors](https://github.com/liuch288/factor_store/pull/4) | ✅ 可合并 | 0 | 2 | 1 | 列名前缀校验，建议更新 PR 标题 |
