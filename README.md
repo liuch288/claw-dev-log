@@ -27,6 +27,21 @@
 
 ---
 
+## 2026-03-25
+
+### rbt
+- CLQ-67: Determine required factors → PR #21 待审核
+- CLQ-66: Limit read range → PR #20 已合并
+- CLQ-21: 审核 PR #21
+
+### factor_view (fv)
+- CLQ-55: Column filtering → PR #4 待合并
+
+### factor_calculator (fc)
+- CLQ-65: Fix previous result and BGM → 进行中
+
+---
+
 ## 2026-03-24
 
 ### rbt
