@@ -27,6 +27,20 @@
 
 ---
 
+## 2026-03-26
+
+### rbt
+- CLQ-68: Fix FsResultDB bugs → PR #22 已合并
+- CLQ-67: Determine required factors → PR #21 已合并
+
+### factor_view (fv)
+- CLQ-55: Column filtering → PR #4 已合并
+
+### factor_calculator (fc)
+- CLQ-65: Fix previous result and BGM → PR #2 已合并
+
+---
+
 ## 2026-03-25
 
 ### rbt
