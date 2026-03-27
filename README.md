@@ -62,15 +62,16 @@
 ## 2026-03-25
 
 ### rbt
-- CLQ-67: Determine required factors → PR #21 待审核
-- CLQ-66: Limit read range → PR #20 已合并
-- CLQ-21: 审核 PR #21
+- CLQ-64: Provide dependency factor information → PR #19 已合并
+- CLQ-66: Limit read range for existed data in strategy run → PR #20 已合并
+- CLQ-67: Determine required factors to load in strategy run → PR #21 已合并
+- CLQ-68: Fix FsResultDB bugs → PR #22 已合并
 
 ### factor_view (fv)
-- CLQ-55: Column filtering → PR #4 待合并
+- CLQ-55: Column filtering → 进行中
 
 ### factor_calculator (fc)
-- CLQ-65: Fix previous result and BGM → 进行中
+- CLQ-65: Fix previous result and BGM → PR #2 已合并
 
 ---
 
