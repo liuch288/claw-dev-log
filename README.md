@@ -30,7 +30,15 @@
 ## 2026-03-27
 
 ### rbt
-- CLQ-74: Fix release issue → PR #30 已合并（当日共合并7个PR：#23-#30）
+- CLQ-69: Deploy RBT pipeline → PR #23 已合并
+- CLQ-69: Fix build.yml → PR #24 已合并
+- CLQ-70: Adapt to release → PR #25 已合并
+- CLQ-71: Fix release error → PR #26 已合并
+- CLQ-72: Continue fixing pipeline error → PR #27 已合并
+- CLQ-73: Fix pipeline bug → PR #28 已合并
+- CLQ-74: Fix release issue → PR #29 已合并
+- CLQ-74: Followup fix → PR #30 已合并
+- 清理 GitHub 上 26 个 CLQ- 开头的分支
 
 ### factor_view (fv)
 - CLQ-55: Column filtering → PR #4 已合并
