@@ -1,6 +1,7 @@
 # PR Review 记录
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
+|------|---------|------|-----|----------|----------|------|------|------|
 | 2026-03-27 | CLQ-71 | rbt | [CLQ-71: Fix release error](https://github.com/liuch288/rbt/pull/26) | ✅ 可合并 | 0 | 0 | 1 | 动态获取默认分支，正则解析版本
 | 2026-03-27 | CLQ-69 | rbt | [CLQ-69: Deploy RBT pipeline](https://github.com/liuch288/rbt/pull/23) | ✅ 可合并 | 0 | 1 | 0 | GitHub Actions CI/CD 配置正确
 | 2026-03-26 | CLQ-65 | factor_calculator | [CLQ-65: Fix previous result and BGM functionality](https://github.com/liuch288/factor_calculator/pull/2) | ✅ 可合并 | 0 | 1 | 0 | docstring 描述与实际用途不一致；CLI 破坏性变更无缓冲期 |
