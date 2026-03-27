@@ -1,7 +1,11 @@
 # PR Review 记录
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
-|------|---------|------|-----|----------|----------|------|------|------|
+| 2026-03-27 | CLQ-74 | rbt | [CLQ-74: Fix release issue](https://github.com/liuch288/rbt/pull/29) | ✅ 可合并 | 0 | 0 | 0 | 添加 contents:write 权限，改进版本提取
+| 2026-03-27 | CLQ-73 | rbt | [CLQ-73: Fix pipeline bug](https://github.com/liuch288/rbt/pull/28) | ✅ 可合并 | 0 | 0 | 0 | 修复 action-gh-release v2 参数名
+| 2026-03-27 | CLQ-72 | rbt | [CLQ-72: Continue fixing pipeline error](https://github.com/liuch288/rbt/pull/27) | ⚠️ 建议修改 | 0 | 1 | 1 | 分支名回退为硬编码；env 变量用途不明
+| 2026-03-27 | CLQ-71 | rbt | [CLQ-71: Fix release error](https://github.com/liuch288/rbt/pull/26) | ✅ 可合并 | 0 | 0 | 1 | 动态获取默认分支，正则解析版本
+| 2026-03-27 | CLQ-70 | rbt | [CLQ-70: Adapt to release](https://github.com/liuch288/rbt/pull/25) | ✅ 可合并 | 0 | 0 | 1 | 建议统一分支名为 master
 | 2026-03-27 | CLQ-73 | rbt | [CLQ-73: Fix pipeline bug](https://github.com/liuch288/rbt/pull/28) | ✅ 可合并 | 0 | 0 | 0 | 修复 action-gh-release v2 参数名
 | 2026-03-27 | CLQ-72 | rbt | [CLQ-72: Continue fixing pipeline error](https://github.com/liuch288/rbt/pull/27) | ⚠️ 建议修改 | 0 | 1 | 1 | 分支名回退为硬编码；env 变量用途不明
 | 2026-03-27 | CLQ-71 | rbt | [CLQ-71: Fix release error](https://github.com/liuch288/rbt/pull/26) | ✅ 可合并 | 0 | 0 | 1 | 动态获取默认分支，正则解析版本
