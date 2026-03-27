@@ -2,7 +2,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
-| 2026-03-27 | CLQ-72 | rbt | [CLQ-72: Continue fixing pipeline error](https://github.com/liuch288/rbt/pull/27) | ⚠️ 建议修改 | 0 | 1 | 1 | 分支名回退为硬编码；env 变量用途不明
+| 2026-03-27 | CLQ-73 | rbt | [CLQ-73: Fix pipeline bug](https://github.com/liuch288/rbt/pull/28) | ✅ 可合并 | 0 | 0 | 0 | 修复 action-gh-release v2 参数名
 | 2026-03-27 | CLQ-69 | rbt | [CLQ-69: Deploy RBT pipeline](https://github.com/liuch288/rbt/pull/23) | ✅ 可合并 | 0 | 1 | 0 | GitHub Actions CI/CD 配置正确
 | 2026-03-26 | CLQ-65 | factor_calculator | [CLQ-65: Fix previous result and BGM functionality](https://github.com/liuch288/factor_calculator/pull/2) | ✅ 可合并 | 0 | 1 | 0 | docstring 描述与实际用途不一致；CLI 破坏性变更无缓冲期 |
 | 2026-03-26 | CLQ-68 | rbt | [CLQ-68: Fix FsResultDB bugs](https://github.com/liuch288/rbt/pull/22) | ⚠️ 建议修改 | 0 | 1 | 0 | 与 #20 改动方向冲突，需统一设计 |
