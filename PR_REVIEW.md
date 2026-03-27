@@ -1,5 +1,5 @@
 # PR Review 记录
-| 2026-03-27 | CLQ-69 | rbt | [CLQ-69: Deploy RBT pipeline](https://github.com/liuch288/rbt/pull/23) | ✅ 可合并 | 0 | 1 | 0 | GitHub Actions CI/CD 配置正确
+| | 2026-03-27 | CLQ-69 | rbt | [CLQ-69: Deploy RBT pipeline](https://github.com/liuch288/rbt/pull/23) | ✅ 可合并 | 0 | 1 | 0 | GitHub Actions CI/CD 配置正确
 
 | 2026-03-27 | CLQ-69 | rbt | [CLQ-69: Deploy RBT pipeline](https://github.com/liuch288/rbt/pull/23) | ✅ 可合并 | 0 | 1 | 0 | GitHub Actions CI/CD 配置正确
 记录每次 Code Review 的结果。
