@@ -27,6 +27,16 @@
 
 ---
 
+## 2026-03-27
+
+### rbt
+- CLQ-74: Fix release issue → PR #30 已合并（当日共合并7个PR：#23-#30）
+
+### factor_view (fv)
+- CLQ-55: Column filtering → PR #4 已合并
+
+---
+
 ## 2026-03-26
 
 ### rbt
