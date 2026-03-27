@@ -74,17 +74,6 @@
 
 ---
 
-## 2026-03-24
-
-### rbt
-- CLQ-63: Register contract info → PR #18 已合并
-- CLQ-60: Adjust FuturesMdEngine parameters and Unit auto-naming → PR #17 已合并
-
-### factor_calculator (fc)
-- CLQ-50: Develop basic version → PR #1 已合并
-
----
-
 ## 2026-02-10
 
 ### ClawQuant
@@ -539,8 +528,12 @@
 
 ## 2026-03-23
 
-### 休息日
-- 无开发工作（周一）
+### rbt
+- CLQ-60: Adjust FuturesMdEngine parameters and Unit auto-naming → PR #17 已合并
+- CLQ-63: Register contract info → PR #18 已合并
+
+### factor_calculator (fc)
+- CLQ-50: Develop basic version → PR #1 已合并
 
 ---
 
