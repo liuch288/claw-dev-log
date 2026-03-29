@@ -27,14 +27,21 @@
 
 ---
 
-## 2026-03-28
+## 2026-03-29
+
+### lrbt
+- CLQ-77: Add basic DMU implementations → 进行中
+- 记录 PR #1 (lrbt) 审核结果
 
 ### 休息日
 - 无开发工作
 
 ---
 
-## 2026-03-27
+## 2026-03-28
+
+### 休息日
+- 无开发工作
 
 ### rbt
 - CLQ-69: Deploy RBT pipeline → PR #23 已合并
