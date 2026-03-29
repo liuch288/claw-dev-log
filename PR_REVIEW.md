@@ -2,6 +2,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-03-29 | CLQ-76 | lrbt | [CLQ-76: Add lrbt project framework](https://github.com/liuch288/lrbt/pull/1) | ✅ 可合并 | 0 | 1 | 2 | 建议添加 __main__.py + pyproject.toml |
 | 2026-03-29 | - | ptracker | [#12: Add snapshot cron script](https://github.com/liuch288/ptracker/pull/12) | ✅ 可合并 | 0 | 2 | 1 | 硬编码路径；建议用配置文件 + 添加错误处理 |
 | 2026-03-27 | CLQ-74 | rbt | [CLQ-74: Fix release issue](https://github.com/liuch288/rbt/pull/29) | ✅ 可合并 | 0 | 0 | 0 | 添加 contents:write 权限，改进版本提取
 | 2026-03-27 | CLQ-71 | rbt | [CLQ-71: Fix release error](https://github.com/liuch288/rbt/pull/26) | ✅ 可合并 | 0 | 0 | 1 | 动态获取默认分支，正则解析版本
