@@ -33,9 +33,6 @@
 - CLQ-77: Add basic DMU implementations → 进行中
 - 记录 PR #1 (lrbt) 审核结果
 
-### 休息日
-- 无开发工作
-
 ---
 
 ## 2026-03-28
