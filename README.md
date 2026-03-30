@@ -27,6 +27,17 @@
 
 ---
 
+## 2026-03-30
+
+### factor_calculator (fc)
+- CLQ-77: 支持 lrbt 模块 → 进行中
+- 重构 factory.py：支持从 lrbt 加载 DMU/PEU 类，增加 LazyClassStub 处理未安装依赖，增强 pkgutil 深度搜索
+
+### 基础设施
+- 修复日报 cron 任务：`MiniMax-M2.5` → `minimax-portal/MiniMax-M2.5`，解决 LiveSessionModelSwitchError
+
+---
+
 ## 2026-03-29
 
 ### lrbt
