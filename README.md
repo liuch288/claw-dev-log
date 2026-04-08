@@ -29,8 +29,11 @@
 
 ## 2026-04-08
 
-### 休息日
-- 无开发工作
+### rbt
+- CLQ-79: Optimize biquotepeu
+- 提交并推送 2 笔改动：
+  - `79c19c7`: 删减 `BiquotePEU` 的 `active_closing_time` 参数，简化 `get_param_str`，增加 `previous_result` 参数
+  - `1d9811f`: 更新 PEU README，删除设计文档
 
 ## 2026-03-30
 
