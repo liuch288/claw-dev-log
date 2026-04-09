@@ -29,8 +29,23 @@
 
 ## 2026-04-09
 
-### 休息日
-- 无开发工作
+### rbt
+- CLQ-82: Extract order splitting module into DMU
+  - 创建 Jira + 分支 CLQ-82_order-splitting-dmu
+  - 多次提交并推送（4 次）：
+    - `7fcb001`: 新增 mo_split_dmu.py，重构 mo_intention_dmu.py，精简 futures_md_engine.py 和 md_engine.py
+    - `3ec8a13`: 简化 MoIntentionDMU，移除 mo_split_dmu_name 参数，添加 dependencies() 方法
+    - `7e52d7d`: 移除 threshold 逻辑，只输出 ratio/all_buy/all_sell
+    - `7e35564`: 版本升级到 0.17，添加更新日志
+  - 创建 PR #33：https://github.com/liuch288/rbt/pull/33
+- CLQ-84: Accelerate biquotepeu performance（计划任务，仅创建 Jira）
+
+### factor_view (fv)
+- CLQ-83: Support dynamic symbol selection for data generation
+  - 创建 Jira + 分支 CLQ-83_dynamic_symbol_selection
+
+### 规范更新
+- 分支命名规范：issue id 用横杠，后面描述用下划线（例如：CLQ-82_order_splitting_dmu）
 
 ## 2026-04-08
 
