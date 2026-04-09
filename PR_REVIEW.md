@@ -2,6 +2,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-04-10 | CLQ-86 | rbt | [CLQ-86: Pass unit results to PEU estimate method for dependency support](https://github.com/liuch288/rbt/pull/35) | ⚠️ 建议修改 | 0 | 2 | 1 | fixed_holding_peu.py 仍用旧签名 estimate(data, previous_result)；FsResultDB 与 PklResultDB 对 factors=None 行为不一致 | 严重问题：PEU 子类签名不一致，需同步更新 |  |  |  |
 | 2026-04-10 | CLQ-81 | rbt | [CLQ-81: Add dynamic level detection for market order recovery](https://github.com/liuch288/rbt/pull/34) | ✅ 可合并 | 0 | 2 | 1 | MoSplitDMU.md_type 默认值变更可能导致兼容性问题；recover_mo_core_dynamic 未设置求解器参数 |
 | 2026-04-09 | CLQ-82 | rbt | [CLQ-82: Extract order splitting module into DMU](https://github.com/liuch288/rbt/pull/33) | ✅ 可合并 | 0 | 2 | 1 | MoIntentionDMU 构造参数变更需确认兼容性；MdEngine 不再自动恢复市价单 |
 | 2026-04-09 | CLQ-79 | rbt | [CLQ-79: Optimize biquotepeu](https://github.com/liuch288/rbt/pull/32) | ✅ 可合并 | 0 | 1 | 2 | 文档整理，接口统一；移除了 active_closing_time 参数需确认兼容性 |
