@@ -2,7 +2,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
-| 2026-04-09 | CLQ-79 | rbt | [CLQ-79: Optimize biquotepeu](https://github.com/liuch288/rbt/pull/32) | ✅ 可合并 | 0 | 1 | 2 | 文档整理，接口统一；移除了 active_closing_time 参数需确认兼容性 |
+| 2026-04-09 | CLQ-82 | rbt | [CLQ-82: Extract order splitting module into DMU](https://github.com/liuch288/rbt/pull/33) | ✅ 可合并 | 0 | 2 | 1 | MoIntentionDMU 构造参数变更需确认兼容性；MdEngine 不再自动恢复市价单 | 2026-04-09 | CLQ-79 | rbt | [CLQ-79: Optimize biquotepeu](https://github.com/liuch288/rbt/pull/32) | ✅ 可合并 | 0 | 1 | 2 | 文档整理，接口统一；移除了 active_closing_time 参数需确认兼容性 |
 | 2026-04-09 | CLQ-77 | factor_calculator | [CLQ-77: Support lrbt](https://github.com/liuch288/factor_calculator/pull/3) | ✅ 可合并 | 0 | 1 | 0 | pkgutil 遍历可考虑加限制条件 |
 | 2026-03-31 | CLQ-78 | rbt | [CLQ-78: Add minmax IC](https://github.com/liuch288/rbt/pull/31) | ⚠️ 建议修改 | 0 | 1 | 2 | calculate() 未调用 super()；建议删除注释代码；补充 docstring |
 | 2026-03-29 | CLQ-76 | lrbt | [CLQ-76: Add lrbt project framework](https://github.com/liuch288/lrbt/pull/1) | ✅ 可合并 | 0 | 1 | 2 | 建议添加 __main__.py + pyproject.toml |
