@@ -27,6 +27,17 @@
 
 ---
 
+## 2026-04-10
+
+### rbt
+- CLQ-82: Extract order splitting module into DMU → PR #33 已合并
+- CLQ-81: Add dynamic level detection for market order recovery → PR #34 已合并
+- CLQ-86: Pass unit results to PEU estimate method → PR #35 已合并
+- CLQ-87: Adapt PEU subclasses → 进行中
+
+### factor_view (fv)
+- CLQ-83: Dynamic symbol selection for data generation → PR #5 已合并
+
 ## 2026-04-09
 
 ### rbt
