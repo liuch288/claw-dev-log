@@ -27,6 +27,12 @@
 
 ---
 
+## 2026-04-11
+
+### rbt
+- CLQ-87: Adapt PEU subclasses to new framework → PR #36 已合并
+- 进行 PR #36 审核（re-review 后通过）
+
 ## 2026-04-10
 
 ### rbt
