@@ -2,8 +2,8 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
-| 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ⚠️ 建议修改 | 0 | 3 | 1 | Strategy.py pd.concat 列名冲突风险；SimpleBiquotePEU 价格来源语义变化；PR 描述与代码不符（称移除 Order 类但仍使用） |
 | 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ✅ 可合并 | 0 | 1 | 2 | re-review：代码更新后，排单量逻辑改进（多档探测替代硬编码5档）；仅余轻微警告 |
+| 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ⚠️ 建议修改 | 0 | 3 | 1 | Strategy.py pd.concat 列名冲突风险；SimpleBiquotePEU 价格来源语义变化；PR 描述与代码不符（称移除 Order 类但仍使用） |
 | 2026-04-10 | CLQ-83 | factor_view | [CLQ-83: Add dynamic product/contract selection in guide page](https://github.com/liuch288/factor_view/pull/5) | ⚠️ 建议修改 | 0 | 1 | 2 | COLUMN_REGEX 从单下划线改为双下划线分隔符，需确认历史数据兼容性 | 建议：补全 GuidePage 组件的快照测试 |  |
 | 2026-04-10 | CLQ-86 | rbt | [CLQ-86: Pass unit results to PEU estimate method for dependency support](https://github.com/liuch288/rbt/pull/35) | ⚠️ 建议修改 | 0 | 2 | 1 | fixed_holding_peu.py 仍用旧签名 estimate(data, previous_result)；FsResultDB 与 PklResultDB 对 factors=None 行为不一致 | 严重问题：PEU 子类签名不一致，需同步更新 |  |  |  |
 | 2026-04-10 | CLQ-81 | rbt | [CLQ-81: Add dynamic level detection for market order recovery](https://github.com/liuch288/rbt/pull/34) | ✅ 可合并 | 0 | 2 | 1 | MoSplitDMU.md_type 默认值变更可能导致兼容性问题；recover_mo_core_dynamic 未设置求解器参数 |
