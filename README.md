@@ -31,7 +31,19 @@
 
 ### rbt
 - CLQ-87: Adapt PEU subclasses to new framework → PR #36 已合并
-- 进行 PR #36 审核（re-review 后通过）
+  - PR #36 首次审核：发现 Strategy.py pd.concat 列名冲突风险、SimpleBiquotePEU 价格来源语义变化、PR 描述与代码不符等问题
+  - PR #36 二次审核：代码更新后排单量逻辑改进（多档探测替代硬编码5档），通过审核
+  - 执行 squash merge 合并 PR #36
+  - 更新 Jira CLQ-87 状态为「已完成」
+
+### factor_view (fv)
+- CLQ-88: Fix GuidePage 500 error → 进行中
+  - Add ASGI support for uvicorn deployment
+  - Fix GuidePage layout and add scroll to lists
+  - Fix GuidePage component（GuidePage.vue）
+  - Improve frontend components（App.vue, DataTable.vue, ToolBar.vue）
+  - Improve FilterPanelContent（FilterPanelContent.vue）
+  - 创建 PR #6: https://github.com/liuch288/factor_view/pull/6
 
 ## 2026-04-10
 
