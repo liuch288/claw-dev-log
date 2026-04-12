@@ -27,6 +27,15 @@
 
 ---
 
+## 2026-04-12
+
+### factor_view (fv)
+- CLQ-88: Fix GuidePage 500 error → PR #6 已审核（可合并）
+  - 添加 ASGI 支持以支持 uvicorn 部署
+  - 修复 GuidePage 布局并为列表添加滚动
+  - 修复 GuidePage 组件
+  - 改进前端组件
+
 ## 2026-04-11
 
 ### rbt
