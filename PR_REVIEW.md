@@ -2,6 +2,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-04-13 | CLQ-91 | contextum | [CLQ-91: Add project framework](https://github.com/liuch288/contextum/pull/1) | ✅ 可合并 | 0 | 1 | 3 | 框架初始化 PR，结构清晰；Source.fetch_interval 字段在 scheduler 中未被使用，建议确认用途或清理；news_fetcher 每条 commit 可考虑批量；.env.example/.gitignore 规范
 | 2026-04-12 | CLQ-88 | factor_view | [CLQ-88: Fix GuidePage 500 error](https://github.com/liuch288/factor_view/pull/6) | ✅ 可合并 | 0 | 1 | 2 | toFixed+parseFloat 可能丢精度建议改为 toFixed；双下划线分隔符与 CLQ-83 一致；小数精度控制实现完整 |
 | 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ✅ 可合并 | 0 | 1 | 2 | re-review：代码更新后，排单量逻辑改进（多档探测替代硬编码5档）；仅余轻微警告 |
 | 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ⚠️ 建议修改 | 0 | 3 | 1 | Strategy.py pd.concat 列名冲突风险；SimpleBiquotePEU 价格来源语义变化；PR 描述与代码不符（称移除 Order 类但仍使用） |
