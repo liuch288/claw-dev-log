@@ -29,8 +29,13 @@
 
 ## 2026-04-13
 
-### 休息日
-- 无开发工作
+### contextum
+- CLQ-91: Add project framework → PR #1 已合并
+  - 新增项目框架（admin, analyzer, common, fetcher, web 模块）
+  - 实现状态跟踪和 Web dashboard
+  - 实现新闻获取器（news_fetcher.py）和调度器（scheduler.py）
+  - 实现源管理器（source_manager.py）和数据库模型（database.py, models.py）
+  - 16 个文件，628 行新增代码
 
 ## 2026-04-12
 
