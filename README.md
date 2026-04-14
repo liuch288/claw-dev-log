@@ -30,7 +30,7 @@
 ## 2026-04-14
 
 ### contextum (ct)
-- CLQ-92: Add basic processing agent → PR #2
+- CLQ-92: Add basic processing agent → PR #2 已合并
   - 新增 LLM processor 模块（llm_client.py, processor.py, processor_db.py）
   - 新增处理器模型和标签管理器
   - 支持 Anthropic 和 OpenAI API
@@ -38,7 +38,7 @@
   - 新增批量处理脚本（process_history.py）和测试脚本（test_raw.py）
   - 增强 dashboard，显示最新 10 条处理结果（翻译标题、译文内容、标签）
   - 新增 title-only 处理模式（针对无内容的新闻）
-  - 10 个文件，340 行新增代码
+  - PR #2 已合并：新增 process_history_mt.py（多线程批量处理），调整 dashboard 标签列宽度
 
 ## 2026-04-13
 
