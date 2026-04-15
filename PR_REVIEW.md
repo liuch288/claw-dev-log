@@ -1,7 +1,7 @@
 # PR Review 记录
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
-|------|---------|------|-----|----------|----------|------|------|------|
+| 2026-04-15 | CLQ-92 | contextum | [CLQ-92: Add basic processing agent](https://github.com/liuch288/contextum/pull/2) | ⚠️ 建议修改 | 1 | 2 | 4 | Processor 核心功能已实现，但集成代码全部注释未启用；API key 前缀明文日志；.env.example 硬编码 GLM-4.7 模型名；dashboard 新闻数从 20 改为 10 |
 | 2026-04-13 | CLQ-91 | contextum | [CLQ-91: Add project framework](https://github.com/liuch288/contextum/pull/1) | ✅ 可合并 | 0 | 1 | 3 | 框架初始化 PR，结构清晰；Source.fetch_interval 字段在 scheduler 中未被使用，建议确认用途或清理；news_fetcher 每条 commit 可考虑批量；.env.example/.gitignore 规范
 | 2026-04-12 | CLQ-88 | factor_view | [CLQ-88: Fix GuidePage 500 error](https://github.com/liuch288/factor_view/pull/6) | ✅ 可合并 | 0 | 1 | 2 | toFixed+parseFloat 可能丢精度建议改为 toFixed；双下划线分隔符与 CLQ-83 一致；小数精度控制实现完整 |
 | 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ✅ 可合并 | 0 | 1 | 2 | re-review：代码更新后，排单量逻辑改进（多档探测替代硬编码5档）；仅余轻微警告 |
