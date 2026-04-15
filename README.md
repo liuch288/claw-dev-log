@@ -27,6 +27,23 @@
 
 ---
 
+## 2026-04-15
+
+### rbt
+- CLQ-94: Add generic IC → PR #37 已创建
+  - 更新 IC 模块支持通用计算接口
+  - 新增 range_min_ic.py, range_max_ic.py
+
+### fc (factor_calculator)
+- CLQ-95: Handle consecutive multi-day calculation → 进行中
+- CLQ-80: PEU calculation verification → 已完成（分支已删除）
+
+### contextum (ct)
+- CLQ-93: Run historical data → 已创建分支
+
+### lrbt
+- PR #2: Add basic DMU implementations → 等待合并
+
 ## 2026-04-14
 
 ### contextum (ct)
