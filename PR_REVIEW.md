@@ -1,14 +1,15 @@
 # PR Review 记录
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
+|------|---------|------|-----|----------|----------|------|------|------|
 | 2026-04-16 | CLQ-94 | rbt | [CLQ-94: Add generic IC](https://github.com/liuch288/rbt/pull/37) | ⚠️ 建议修改 | 1 | 2 | 3 | CorrelationIC/KurtosisIC/SkewnessIC/RandomIC/RangeMinIC/RangeMaxIC 的 calculate() 为空，依赖不存在的 calculate_after_insertion()；DiffIC/DiffRateIC 的 calculate() 正确；Unit version v1→v0 需确认兼容性；README 变更日志格式稍有差异；setup.py 补充依赖声明 |
 | 2026-04-15 | CLQ-92 | contextum | [CLQ-92: Add basic processing agent](https://github.com/liuch288/contextum/pull/2) | ⚠️ 建议修改 | 1 | 2 | 4 | Processor 核心功能已实现，但集成代码全部注释未启用；API key 前缀明文日志；.env.example 硬编码 GLM-4.7 模型名；dashboard 新闻数从 20 改为 10 |
 | 2026-04-13 | CLQ-91 | contextum | [CLQ-91: Add project framework](https://github.com/liuch288/contextum/pull/1) | ✅ 可合并 | 0 | 1 | 3 | 框架初始化 PR，结构清晰；Source.fetch_interval 字段在 scheduler 中未被使用，建议确认用途或清理；news_fetcher 每条 commit 可考虑批量；.env.example/.gitignore 规范
 | 2026-04-12 | CLQ-88 | factor_view | [CLQ-88: Fix GuidePage 500 error](https://github.com/liuch288/factor_view/pull/6) | ✅ 可合并 | 0 | 1 | 2 | toFixed+parseFloat 可能丢精度建议改为 toFixed；双下划线分隔符与 CLQ-83 一致；小数精度控制实现完整 |
 | 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ✅ 可合并 | 0 | 1 | 2 | re-review：代码更新后，排单量逻辑改进（多档探测替代硬编码5档）；仅余轻微警告 |
 | 2026-04-11 | CLQ-87 | rbt | [CLQ-87: Adapt PEU subclasses to new framework](https://github.com/liuch288/rbt/pull/36) | ⚠️ 建议修改 | 0 | 3 | 1 | Strategy.py pd.concat 列名冲突风险；SimpleBiquotePEU 价格来源语义变化；PR 描述与代码不符（称移除 Order 类但仍使用） |
-| 2026-04-10 | CLQ-83 | factor_view | <https://github.com/liuch288/factor_view/pull/5> | ⚠️ 建议修改 | 0 | 1 | 2 | COLUMN_REGEX 从单下划线改为双下划线分隔符，需确认历史数据兼容性；建议：补全 GuidePage 组件的快照测试 |
-| 2026-04-10 | CLQ-86 | rbt | <https://github.com/liuch288/rbt/pull/35> | ⚠️ 建议修改 | 0 | 2 | 1 | fixed_holding_peu.py 仍用旧签名 estimate(data, previous_result)；FsResultDB 与 PklResultDB 对 factors=None 行为不一致；严重问题：PEU 子类签名不一致，需同步更新 |
+ | 2026-04-10 | CLQ-83 | factor_view | [CLQ-83: Add dynamic product/contract selection in guide page](https://github.com/liuch288/factor_view/pull/5) | ⚠️ 建议修改 | 0 | 1 | 2 | COLUMN_REGEX 从单下划线改为双下划线分隔符，需确认历史数据兼容性 | 建议：补全 GuidePage 组件的快照测试 |  |
+| 2026-04-10 | CLQ-86 | rbt | [CLQ-86: Pass unit results to PEU estimate method for dependency support](https://github.com/liuch288/rbt/pull/35) | ⚠️ 建议修改 | 0 | 2 | 1 | fixed_holding_peu.py 仍用旧签名 estimate(data, previous_result)；FsResultDB 与 PklResultDB 对 factors=None 行为不一致 | 严重问题：PEU 子类签名不一致，需同步更新 |  |  |  |
 | 2026-04-10 | CLQ-81 | rbt | [CLQ-81: Add dynamic level detection for market order recovery](https://github.com/liuch288/rbt/pull/34) | ✅ 可合并 | 0 | 2 | 1 | MoSplitDMU.md_type 默认值变更可能导致兼容性问题；recover_mo_core_dynamic 未设置求解器参数 |
 | 2026-04-09 | CLQ-82 | rbt | [CLQ-82: Extract order splitting module into DMU](https://github.com/liuch288/rbt/pull/33) | ✅ 可合并 | 0 | 2 | 1 | MoIntentionDMU 构造参数变更需确认兼容性；MdEngine 不再自动恢复市价单 |
 | 2026-04-09 | CLQ-79 | rbt | [CLQ-79: Optimize biquotepeu](https://github.com/liuch288/rbt/pull/32) | ✅ 可合并 | 0 | 1 | 2 | 文档整理，接口统一；移除了 active_closing_time 参数需确认兼容性 |
