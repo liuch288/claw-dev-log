@@ -2,6 +2,7 @@
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
 |------|---------|------|-----|----------|----------|------|------|------|
+| 2026-04-17 | CLQ-96 | rbt | [CLQ-96: Support cross-day unit execution](https://github.com/liuch288/rbt/pull/38) | ✅ 可合并 | 0 | 1 | 1 | Unit 基类新增 on_end_of_day() 钩子，8 个 DMU 子类实现日终重置，设计干净；mo_split_dmu 正确处理 recover_ic 可能为 None 的情况；TrendDMU 重置 last_val=0.0 可能丢失跨日趋势连续性，建议确认是否符合业务预期；version bump 0.21→0.22 + changelog 完整 |
 | 2026-04-16 | CLQ-98 | contextum | [CLQ-98: Support real-time news processing](https://github.com/liuch288/contextum/pull/4) | ✅ 可合并 | 0 | 2 | 2 | re-review：backup.py 已改用 with 语句管理连接，中等问题已修复；仅余 process_history*.py import 顺序不规范、processor.py 重试计数偏差两处轻微警告 |
 | 2026-04-16 | CLQ-93 | contextum | [CLQ-93: Enhance JSON parsing with Chinese quotes and truncation support](https://github.com/liuch288/contextum/pull/3) | ✅ 可合并 | 0 | 2 | 2 | JSON 解析增强（中文引号+截断恢复）逻辑完整；max_tokens 2048→16384；移除了 OpenAI 兼容 API 和 provider 切换逻辑，代码更简洁；processor.py prompt 更新中文引号说明；仅余轻微警告
 | 2026-04-15 | CLQ-92 | contextum | [CLQ-92: Add basic processing agent](https://github.com/liuch288/contextum/pull/2) | ⚠️ 建议修改 | 1 | 2 | 4 | Processor 核心功能已实现，但集成代码全部注释未启用；API key 前缀明文日志；.env.example 硬编码 GLM-4.7 模型名；dashboard 新闻数从 20 改为 10 |
