@@ -27,6 +27,18 @@
 
 ---
 
+## 2026-04-16
+
+### rbt
+- CLQ-94: Add generic IC → PR #37 已合并
+
+### fc (factor_calculator)
+- CLQ-95: Handle consecutive multi-day calculation → 已完成
+
+### contextum (ct)
+- CLQ-93: Run historical data → PR #3 已合并
+- CLQ-98: Support real-time news processing → PR #4 已合并
+
 ## 2026-04-15
 
 ### rbt
