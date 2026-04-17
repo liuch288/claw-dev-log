@@ -27,10 +27,43 @@
 
 ---
 
+## 2026-04-18
+
+### contextum (ct)
+- CLQ-102: Add one-click start command → PR #6 已合并
+  - 新增 run.sh 一键启动脚本
+- CLQ-99: Add event recognition and classification → 已完成
+
+### factor_view (fv)
+- CLQ-101: Add automated deployment commands → PR #7 已合并
+  - 新增 start.sh 一键启动前后端服务脚本
+  - .gitignore 添加 logs/ 目录
+
 ## 2026-04-17
 
-### 休息日
-- 无开发工作
+### lrbt (Liu's RBT)
+- CLQ-77: Add basic DMU implementations → PR #2 已合并
+  - 新增 AtrDMU, KlinePatternDMU 模块
+  - 更新 DMU 基础实现
+
+### rbt
+- CLQ-97: Auto-load contract info → PR #39 已合并
+  - 自动加载策略引用的合约信息
+
+### factor_calculator (fc)
+- CLQ-100: Adapt to RBT v0.22 → PR #5 已合并
+  - 适配 RBT v0.22 新 run() API
+
+### factor_view (fv)
+- CLQ-101: Add automated deployment commands → PR #7 已创建
+  - 新增 start.sh 一键启动脚本
+  - .gitignore 添加 logs/ 目录
+
+### contextum (ct)
+- CLQ-99: Add event recognition and classification → PR #5 已合并
+  - 新增事件检测器、分析器、管理器、数据库模块
+- CLQ-102: Add one-click start command → 已创建分支
+  - 创建 Jira + 分支 CLQ-102_one_click_start_command
 
 ## 2026-04-16
 
