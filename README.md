@@ -29,8 +29,10 @@
 
 ## 2026-04-18
 
-### 休息日
-- 无开发工作（仅修复日报错误）
+### contextum (ct)
+- 新增 EventReview 模型（存储 LLM 生成的审查建议）
+- 增强 llm_client.py：支持自定义 model 参数、增加 timeout 至 600s
+- CLQ-103: Add README for analyzer module documentation → PR 已创建
 
 ## 2026-04-17
 
