@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-04-19
+
+### contextum (ct)
+- CLQ-103: 事件审核增强（offset 支持、LLM prompts 优化）→ 进行中
+  - 提交改进：run_event_review.py, event_updater.py
+  - 当前分支有待提交更改
+
 ## 2026-04-18
 
 ### contextum (ct)
