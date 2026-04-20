@@ -27,6 +27,12 @@
 
 ---
 
+## 2026-04-20
+
+### contextum (ct)
+- CLQ-105: Support dynamic refresh time configuration → PR #9 已合并
+- CLQ-104: Add news auto assignment event → PR #8 已合并
+
 ## 2026-04-19
 
 ### contextum (ct)
