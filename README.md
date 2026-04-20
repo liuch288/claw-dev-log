@@ -30,8 +30,28 @@
 ## 2026-04-20
 
 ### contextum (ct)
-- CLQ-105: Support dynamic refresh time configuration → PR #9 已合并
-- CLQ-104: Add news auto assignment event → PR #8 已合并
+- CLQ-103: Event data correction → PR #7 已合并
+  - 事件审核数据修正功能
+  - 修复 dashboard 和事件处理器中的数据处理问题
+- CLQ-104: News auto assignment event → PR #8 已合并
+  - 实现新闻自动分配事件机制
+  - 更新 dashboard.py (63+/-13 行) - 新增事件管理界面
+  - 更新 event_analyzer.py 和 processor.py (12+/-3 行) - 增强事件分析和处理
+  - 3次提交：dashboard、analyzer+processor、最终更新
+- CLQ-105: Support dynamic refresh time → PR #9 已合并
+  - 支持动态刷新时间配置
+  - 更新 dashboard.py (56+/-7 行) - 新增刷新时间配置界面
+  - 更新 scheduler.py (54+/-1 行) - 实现动态调度
+  - 所有 PR 使用 squash merge 扁平化合并
+
+### factor_base (fb)
+- 项目初始化：创建 README.md (110 行)
+  - 项目介绍和架构文档
+  - 包含 AI 代码生成示例（移动平均因子）
+  - 初始 commit 并 push 到远程分支 CLQ-34_infrastructure_development
+
+### 基础设施
+- 更新 TOOLS.md：新增 FB (factor_base) 项目简称
 
 ## 2026-04-19
 
