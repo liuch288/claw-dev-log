@@ -1,7 +1,7 @@
 # PR Review 记录
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
-|------|---------|------|-----|----------|----------|------|------|------|
+| 2026-04-22 | CLQ-110 | rbt | [CLQ-110: Add comprehensive contract information](https://github.com/liuch288/rbt/pull/40) | ✅ 可合并 | 0 | 2 | 1 | 合约信息从4个国债期货扩展至87个期货品种，覆盖6大交易所；全项目black格式化；version bump 0.22→0.23；警告：md_dmu.register_contract_info只存hands，tick_size/digits被忽略，与其他unit不一致；instrument_info结构变更（T/TF/TL/TS新增name/exchange字段），需确认调用方是否依赖旧结构 |
 | 2026-04-21 | CLQ-108 | factor_calculator | [CLQ-108: Prepare agent usage examples and skill](https://github.com/liuch288/factor_calculator/pull/6) | ✅ 可合并 | 0 | 1 | 3 | 新增 factor_calculator_skill（skill文档+6个示例）；cli.py --db改为可选；删除旧示例文件；pyproject.toml新增包扫描配置 |
 | 2026-04-20 | CLQ-105 | contextum | [CLQ-105: Support dynamic refresh time](https://github.com/liuch288/contextum/pull/9) | ✅ 可合并 | 0 | 2 | 3 | Dashboard 新增事件统计面板+一键生成审查建议；动态抓取间隔算法（根据最新两条新闻时间差计算）；_get_event_stats 异常时静默返0可能误导；trigger_review 无并发保护 |
 | 2026-04-20 | CLQ-104 | contextum | [CLQ-104: Add news auto assignment event](https://github.com/liuch288/contextum/pull/8) | ⚠️ 建议修改 | 0 | 4 | 2 | 排序字段变更（processed_at→published_at）无说明；N+1 query；批量接受无防重保护；run_full_analysis并发无锁 |
