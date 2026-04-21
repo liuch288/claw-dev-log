@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-04-21
+
+### factor_calculator (fc)
+- CLQ-108: Prepare agent usage examples and skill → PR #6 已合并
+  - 新增 OpenClaw skill 示例和 CLI 使用脚本
+  - 删除旧的示例文件
+
 ## 2026-04-20
 
 ### contextum (ct)
