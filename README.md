@@ -27,6 +27,13 @@
 
 ---
 
+## 2026-04-22
+
+### rbt
+- CLQ-114: MdDMU 新增持仓变化字段 → 进行中
+  - 新增 trade_volume（当前成交量）和 oi_change（持仓变化）字段
+  - 提交并推送（待创建 PR）
+
 ## 2026-04-21
 
 ### factor_calculator (fc)
