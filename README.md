@@ -27,6 +27,22 @@
 
 ---
 
+## 2026-04-23
+
+### rbt
+- CLQ-114: MdDMU 新增持仓变化字段 → PR #42 已合并
+- 集成 market-specs 包 → PR #43 已合并
+
+### factor_view (fv)
+- CLQ-118: 主力合约显示功能 → PR #8 已合并
+
+### factor_calculator (fc)
+- CLQ-117: 支持主力合约计算 → 进行中
+
+### contextum (ct)
+- CLQ-120: 事件 Dashboard 优化 → 进行中
+  - 修改 dashboard.py 和 event_detector.py
+
 ## 2026-04-22
 
 ### rbt
