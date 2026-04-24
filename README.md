@@ -29,6 +29,12 @@
 
 ## 2026-04-24
 
+### rbt
+- CLQ-123: Allow Strategy without position PnldMU → 已创建分支
+  - position_pnl_dmu_class 参数改为可选（默认 None）
+  - 仅在指定时才添加 position PnldMU 到执行流程
+  - 向后兼容：旧代码仍可正常工作
+
 ### factor_calculator (fc)
 - CLQ-122: Remove PositionPnldMU from calculation process → 已创建分支
   - 移除 core.py 中对 PositionPnldMU 的导入
