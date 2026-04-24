@@ -27,6 +27,16 @@
 
 ---
 
+## 2026-04-24
+
+### factor_calculator (fc)
+- CLQ-122: Remove PositionPnldMU from calculation process → 已创建分支
+  - 移除 core.py 中对 PositionPnldMU 的导入
+  - Strategy 初始化时不再传入 position_pnl_dmu_class 参数
+  - 因子计算不需要持仓跟踪功能
+
+---
+
 ## 2026-04-23
 
 ### rbt
