@@ -38,13 +38,14 @@
   - 使用 squash merge 扁平化合并
 
 ### factor_calculator (fc)
-- CLQ-122: Remove PositionPnldMU from calculation process → PR #9 已创建
+- CLQ-122: Remove PositionPnldMU from calculation process → PR #9 已合并
   - 移除 core.py 中对 PositionPnldMU 的导入
   - Strategy 初始化时明确传入 position_pnl_dmu_class=None
   - 版本升级到 0.1.2
   - 新增 CHANGELOG.md
   - 因子计算不需要持仓跟踪功能
   - 适配 RBT 新 API，确保向后兼容
+  - 使用 squash merge 扁平化合并
 
 ---
 
