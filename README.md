@@ -37,9 +37,11 @@
   - 向后兼容：旧代码仍可正常工作
 
 ### factor_calculator (fc)
-- CLQ-122: Remove PositionPnldMU from calculation process → 已创建分支
+- CLQ-122: Remove PositionPnldMU from calculation process → PR #9 已创建
   - 移除 core.py 中对 PositionPnldMU 的导入
   - Strategy 初始化时明确传入 position_pnl_dmu_class=None
+  - 版本升级到 0.1.2
+  - 新增 CHANGELOG.md
   - 因子计算不需要持仓跟踪功能
   - 适配 RBT 新 API，确保向后兼容
 
