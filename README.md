@@ -29,6 +29,15 @@
 
 ## 2026-04-24
 
+### factor_store (fs)
+- CLQ-124: Support querying data using dominant contract codes → 已创建分支
+  - 新增 dominant.py 模块，支持合约别名解析
+  - 在所有 API 方法中集成 resolve_contract() 函数
+  - 支持使用主力别名查询数据（如 'TL01', 'IF01'）
+  - 添加 market-specs 依赖
+  - 新增 test_dominant.py 测试文件
+  - 更新 README.md 使用说明
+
 ### rbt
 - CLQ-123: Allow Strategy without position PnldMU → PR #44 已合并
   - position_pnl_dmu_class 参数改为可选（默认 None）
