@@ -30,11 +30,12 @@
 ## 2026-04-24
 
 ### rbt
-- CLQ-123: Allow Strategy without position PnldMU → PR #44 已创建
+- CLQ-123: Allow Strategy without position PnldMU → PR #44 已合并
   - position_pnl_dmu_class 参数改为可选（默认 None）
   - 仅在指定时才添加 position PnldMU 到执行流程
   - 版本升级到 0.27
   - 向后兼容：旧代码仍可正常工作
+  - 使用 squash merge 扁平化合并
 
 ### factor_calculator (fc)
 - CLQ-122: Remove PositionPnldMU from calculation process → PR #9 已创建
