@@ -27,6 +27,12 @@
 
 ---
 
+## 2026-04-26
+
+### contextum (ct)
+- CLQ-120: Event Dashboard optimization → 进行中
+  - 增加 BATCH_SIZE 从 200 到 300 改善编年史摘要
+
 ## 2026-04-25
 
 ### 休息日
