@@ -27,6 +27,18 @@
 
 ---
 
+## 2026-04-27
+
+### contextum (ct)
+- CLQ-131: Court session listening → 进行中
+  - 更新事件分类体系：从10类精简为5类（军事冲突、大国博弈、经济金融、产业科技、政治内政）
+  - 更新 briefing.html 和 event_dashboard.html 界面
+
+### factor_view (fv)
+- CLQ-121: Specified indicator analysis → 进行中
+  - 新增 ResearchDashboard.vue 组件
+  - 更新 App.vue 和 API 接口
+
 ## 2026-04-26
 
 ### contextum (ct)
