@@ -27,6 +27,17 @@
 
 ---
 
+## 2026-04-28
+
+### rbt
+- CLQ-132: Fast BiquotePEU optimization → 进行中
+  - 重构 FixedHoldingPEU 代码，简化实现逻辑
+
+### factor_view (fv)
+- CLQ-121: Specified indicator analysis → 进行中
+  - 新增 ResearchDashboard 组件和相关 API
+  - 更新前端界面和后端接口
+
 ## 2026-04-27
 
 ### contextum (ct)
