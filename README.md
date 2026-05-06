@@ -913,6 +913,11 @@
 - 创建 PR #5（已 squash 合并）
 - 切换到 main 并 pull
 
+## 2026-05-06
+
+### contextum (ct)
+- CLQ-133: Fix jitter bug → PR #17 已合并
+
 ## 2026-05-05
 
 ### 休息日
