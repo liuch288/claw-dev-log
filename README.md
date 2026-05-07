@@ -913,6 +913,16 @@
 - 创建 PR #5（已 squash 合并）
 - 切换到 main 并 pull
 
+## 2026-05-07
+
+### contextum (ct)
+- CLQ-135: Improve readability → 进行中
+  - 优化 event_dashboard.html 样式：新增中式卷轴边框效果、调整背景色、添加装饰角标
+
+### factor_view (fv)
+- CLQ-121: Specified indicator analysis → 进行中
+  - 更新 README.md 添加版本号和变更日志
+
 ## 2026-05-06
 
 ### contextum (ct)
