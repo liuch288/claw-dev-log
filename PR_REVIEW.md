@@ -1,7 +1,7 @@
 # PR Review 记录
 
 | 日期 | Jira ID | 项目 | PR | 审核结果 | 严重问题 | 警告 | 建议 | 备注 |
-| 2026-05-11 | CLQ-121 | factor_view | [#9](https://github.com/liuch288/factor_view/pull/9) | ⚠️ 建议修改 | 0 | 4 | 4 | 大型 PR（+1714/-115/15文件）：新增 Calculator 计算面板（前后端）+ ResearchDashboard + Tab 导航重构 + 暗色 DatePicker 修复 + start.sh restart；警告：① `_run()` 中 `paramValues` 传 string（如 "20"）而非 number，FactorCalculator 期望 int/float 时会静默出错；② `loadDatesForProduct` 异步 race condition：`dates.value = []` 先清空，若用户已选日期范围后改产品，可能在用户选日期前被清空；③ mock `/api/research/tasks` 数据全硬编码，返回 URL 全为 null，历史任务功能实质未实现；④ `init_calculator` 若 FactorCalculator 导入失败静默降级（仅 warn），用户提交任务时才发现 500；轻微：① `start.sh` case 语句缺少 `;;` 分支结束符（bash 会报警告但不影响运行）；② GuidePage.vue/ToolBar.vue 移除 theme toggle 后仍有未使用 import `useTheme`（属清理遗漏）；③ Element Plus `--el-color-primary: #00d4ff` 在亮色模式下可能偏暗 |
+| 2026-05-11 | CLQ-121 | factor_view | [#9](https://github.com/liuch288/factor_view/pull/9) | ✅ 可合并 | 0 | 1 | 3 | re-review（对比初版）：paramValues 类型转换（int/float）已修复；mock 数据已标 `_is_mock` 并注释说明；calculator 错误提示已完善；start.sh case 语法已补全 `;;`；useTheme 残留 import 已清理；未改：loadDatesForProduct 仍先清空 dateRange 再异步（注释说"保持当前数据不变"但实际不符），customMonth 输入不清洗 dates；轻微：buildUnitSpec 依赖后端 p.type annotation 无则仍传 string；API 注释 trade_date 单数但实现 trade_dates 复数不一致 |
 |------|---------|------|-----|----------|----------|------|------|------|
 | 2026-05-10 | CLQ-135 | contextum | [#18](https://github.com/liuch288/contextum/pull/18) | ✅ 可合并 | 0 | 0 | 2 | 改进事件看板可读性（古典纸张风格+装饰角框+色彩去金调）；背景色从 #f5e6b8 调整为 #e8e0d0；新增 .ev-paper-frame 纸纹背景+边框+阴影；色彩从暖金调(#c9a84b/#b8960b)转为柔和灰调(#a08060)；echarts tooltip/dataZoom/scrollbar 同步更新；轻微：装饰角 HTML 用空 `<span>` 而非纯 CSS 实现，偏 hack；paper-texture.webp 引用若文件不存在会静默失效（建议确认资源存在） |
 |------|---------|------|-----|----------|----------|------|------|------|
