@@ -923,6 +923,20 @@
 ### 休息日
 - 无开发工作（周五晚上，cron 23:55 触发）
 
+## 2026-05-11
+
+### factor_view (fv)
+- CLQ-121: Specified indicator analysis → PR #9 已合并
+  - 修复 paramValues 类型转换、mock 数据标注、calculator 错误提示等问题
+  - re-review 通过后 squash merge 合并
+
+### contextum (ct)
+- CLQ-135: Improve readability → PR #18 已合并
+  - 事件看板样式优化（古典纸张风格 + 装饰角框）
+  - 色彩从暖金调转为柔和灰调
+- CLQ-133: Fix jitter bug → PR #17 已合并
+  - 修复 pending 计算逻辑（排除当天）
+
 ## 2026-05-10
 
 ### 休息日
