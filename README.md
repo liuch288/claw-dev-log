@@ -923,6 +923,15 @@
 ### 休息日
 - 无开发工作（周五晚上，cron 23:55 触发）
 
+## 2026-05-12
+
+### rbt
+- CLQ-132: Fast BiquotePEU optimization → PR #47 审核记录
+
+### factor_calculator (fc)
+- CLQ-137: Progress tracking module → PR #10 审核记录
+- CLQ-138: CLI command rename → PR #13 审核记录
+
 ## 2026-05-11
 
 ### factor_view (fv)
