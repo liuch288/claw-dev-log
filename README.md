@@ -923,6 +923,15 @@
 ### 休息日
 - 无开发工作（周五晚上，cron 23:55 触发）
 
+## 2026-05-14
+
+### factor_view (fv)
+- CLQ-139: Display calculate progress → 进行中
+  - 新增 TaskProgress.vue 组件（任务进度显示）
+  - 优化计算面板后端逻辑（CalculatePanel.vue, api.py, calculator.py）
+  - 新增 ResearchDashboard 组件更新
+  - 新增 research.py 后端模块
+
 ## 2026-05-13
 
 ### factor_view (fv)
