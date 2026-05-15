@@ -918,6 +918,14 @@
 ### 休息日
 - 无开发工作（周六）
 
+## 2026-05-15
+
+### factor_view (fv)
+- CLQ-139: Display calculate progress → 进行中
+  - 继续优化计算面板（api.py, app.py, calculator.py, config.py）
+  - 新增 research.py 后端模块
+  - 更新前端 ResearchDashboard 组件
+
 ## 2026-05-08
 
 ### 休息日
