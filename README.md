@@ -918,6 +918,16 @@
 ### 休息日
 - 无开发工作（周六）
 
+## 2026-05-16
+
+### factor_view (fv)
+- CLQ-139: Display calculate progress → 进行中
+  - 继续优化 TaskProgress 组件和计算面板
+  - 新增 ResearchDashboard.vue 组件更新
+
+### contextum (ct)
+- 优化 LLM 客户端配置（llm_client.py）
+
 ## 2026-05-15
 
 ### factor_view (fv)
