@@ -918,6 +918,15 @@
 ### 休息日
 - 无开发工作（周六）
 
+## 2026-05-17
+
+### contextum (ct)
+- 优化 LLM 客户端调试日志（llm_client.py）
+
+### factor_calculator (fc)
+- CLQ-140: Bug fix → 进行中
+  - 修复 progress tracking 模块
+
 ## 2026-05-16
 
 ### factor_view (fv)
