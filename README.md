@@ -32,6 +32,17 @@
 ### 休息日
 - 无开发工作
 
+## 2026-05-21
+
+### factor_view (fv)
+- 新增页脚备案号显示（鲁ICP备2022002710号）
+
+### contextum (ct)
+- 优化 LLM 客户端调试日志（打印 API key 后缀）→ 已提交
+
+### rbt
+- CLQ-141: Handle edge case when order price equals or exceeds best bid/ask → 已提交
+
 ## 2026-05-20
 
 ### 休息日
