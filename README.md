@@ -32,6 +32,12 @@
 ### 休息日
 - 无开发工作
 
+## 2026-05-22
+
+### factor_view (fv)
+- CLQ-142: Add filing number display → PR #11 已合并
+  - 新增页脚备案号显示（鲁ICP备2022002710号）
+
 ## 2026-05-21
 
 ### factor_view (fv)
