@@ -27,6 +27,19 @@
 
 ---
 
+## 2026-05-27
+
+### contextum (ct)
+- CLQ-140: 优化 LLM 客户端调试日志 → 未提交
+  - 新增 API key 后缀打印（llm_client.py）
+
+### rbt
+- CLQ-141: Handle double-sided quote edge case → 已提交
+  - 处理委托价超出最优买卖价的情况
+
+### factor_view (fv)
+- 持续开发中，工作树干净
+
 ## 2026-05-26
 
 ### 休息日
