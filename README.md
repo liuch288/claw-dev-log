@@ -28,10 +28,25 @@
 ---
 
 
-## 2026-05-30
+## 2026-05-31
+
+### rbt
+- CLQ-141: 双边报价优化 PR #48 审核 → ⚠️ 建议修改
+  - 重命名 max_up_vol/max_down_vol → mid_max_up/mid_max_down
+  - 新增 cross_max_up/cross_max_down 对手价指标
+  - 处理订单价格超出盘口的边界情况
+
+### factor_view (fv)
+- CLQ-142: 页脚备案号显示 PR #11 审核 → ✅ 可合并
+  - 新增页脚 ICP 备案号显示（鲁ICP备2022002710号）
+
+### factor_calculator (fc)
+- CLQ-140: 进度追踪 PR #14 审核 → ⚠️ 建议修改
+  - 新增 TaskProgress.vue + research.py 研究结果管理模块
+  - ProgressTracker 与 Calculator 集成
 
 ### 休息日
-- 无开发工作（周六）
+- 无开发工作（周日）
 
 ## 2026-05-29
 
