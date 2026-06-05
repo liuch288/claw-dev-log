@@ -4,6 +4,15 @@
 
 ---
 
+## 2026-06-05
+
+### contextum
+- 师夷长技 Twitter 监控功能 → 开发中
+  - 新增 Twitter 数据模型和数据库 (twitter.db)
+  - 新增 CLI 工具 fetch_user_tweets（集成 bird CLI）
+  - 新增 portal 页面 /learning 显示监控账号推文
+  - 待提交
+
 ## 2026-06-04
 
 ### 休息日
