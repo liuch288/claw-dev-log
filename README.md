@@ -4,6 +4,15 @@
 
 ---
 
+
+## 2026-06-06
+
+### contextum (ct)
+- CLQ-143: Twitter 监控功能 → 开发中
+  - 完善 Twitter 数据模型和 CLI 工具
+  - 新增 portal 页面 /learning
+  - 未提交
+
 ## 2026-06-05
 
 ### contextum
