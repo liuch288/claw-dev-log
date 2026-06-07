@@ -5,6 +5,15 @@
 ---
 
 
+## 2026-06-07
+
+### contextum (ct)
+- CLQ-143: Twitter 监控功能 → 开发中
+  - 继续完善 Twitter CLI 工具（临时文件处理、完整文本获取）
+  - 新增 portal data 模块（获取账号和推文数据）
+  - 新增 /learning 页面渲染
+  - 未提交
+
 ## 2026-06-06
 
 ### contextum (ct)
