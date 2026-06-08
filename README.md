@@ -5,6 +5,16 @@
 ---
 
 
+## 2026-06-08
+
+### contextum (ct)
+- CLQ-143: Twitter 监控功能 → 开发中
+  - 完善 .env.example 配置
+  - 新增 src/main.py 邮件报告模块
+  - 新增 scripts/send_mail_report.py 一次性脚本
+  - 新增 src/mailer/ 邮件模块
+  - 待提交
+
 ## 2026-06-07
 
 ### contextum (ct)
