@@ -5,6 +5,14 @@
 ---
 
 
+## 2026-06-23
+
+### contextum (ct)
+- CLQ-149: Portal UI 升级 → 进行中
+  - 继续重构：新增 data.py 封装，重构 API 端点
+  - 备份旧模板到 templates_legacy/
+  - 待提交
+
 ## 2026-06-22
 
 ### contextum (ct)
@@ -12,7 +20,6 @@
   - 新增 static/css/style.css 样式文件
   - 新增 static/js/app.js 和 counsel.js 脚本
   - 简化 HTML 模板（使用外部 CSS/JS）
-  - 重构 API 端点（提取 data.py 封装）
   - 待提交
 
 ## 2026-06-21
