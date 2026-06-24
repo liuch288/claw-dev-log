@@ -5,6 +5,13 @@
 ---
 
 
+## 2026-06-24
+
+### contextum (ct)
+- CLQ-149: Portal UI 升级 → 已提交
+  - 提取 CSS/JS 到外部文件，重构 HTML 模板
+  - 备份旧模板到 templates_legacy/
+
 ## 2026-06-23
 
 ### contextum (ct)
