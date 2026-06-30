@@ -10,6 +10,12 @@
 ### 休息日
 - 无开发工作（周日，各项目 working tree 干净）
 
+## 2026-06-30
+
+### contextum (ct)
+- CLQ-149: Portal UI 升级 → PR #20 已提交（等待合并）
+  - 更新 icon 图片（apple-touch-icon.png, favicon-192.png, favicon.ico）→ 已提交
+
 ## 2026-06-29
 
 ### contextum (ct)
