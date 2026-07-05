@@ -4,6 +4,13 @@
 
 ---
 
+## 2026-07-05
+
+### contextum (ct)
+- CLQ-149: Portal UI 升级 → 已提交
+  - 优化 icon 图片文件大小（apple-touch-icon.png: 46KB→1.2KB, favicon-192.png: 52KB→1.4KB, favicon.ico: 5.5KB→0.3KB）
+  - 已推送到远程分支 CLQ-149_ui_upgrade
+
 ## 2026-07-04
 
 ### 休息日
