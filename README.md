@@ -4,6 +4,24 @@
 
 ---
 
+## 2026-07-21
+
+### contextum2 (ct2)
+- CLQ-144: 启动项开发 → 进行中
+  - 优化 js/mock.js：/dev/ 路径强制使用模拟数据，生产模式增加错误状态降级逻辑
+  - 新增 dev-server.py：开发服务器，支持 /dev/ 路径模拟数据、/ 路径代理真实 API
+  - 待提交
+
+### orange-bottle
+- 新增 fetcher.py：新闻抓取模块（RSS + 定时任务）
+- 新增 web.py：Web 服务模块（Flask + TinyDB）
+- 清理旧 app.py，修改 requirements.txt
+- 待提交
+
+### trading_bot
+- 精简 viz/app.js 代码（移除自动切换 Tab 和滚动逻辑）
+- 待提交
+
 ## 2026-07-20
 
 ### 休息日
