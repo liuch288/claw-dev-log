@@ -4,6 +4,21 @@
 
 ---
 
+## 2026-08-03
+
+### contextum2 (ct2)
+- CLQ-144: 启动项开发 → 进行中
+  - 修改 js/mock.js：/dev/ 路径强制使用模拟数据逻辑优化
+  - 新增 dev-server.py：开发服务器（待提交）
+
+### orange-bottle
+- 继续完善 fetcher.py、web.py 模块
+  - 删除旧 app.py，新增 fetcher.py（新闻抓取）和 web.py（Web 服务）
+  - 修改 requirements.txt、news_db.json（待提交）
+
+### trading_bot
+- 精简 viz/app.js 代码（待提交）
+
 ## 2026-08-02
 
 ### 休息日
