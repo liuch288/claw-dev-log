@@ -4,6 +4,17 @@
 
 ---
 
+## 2026-09-01
+
+### contextum (ct)
+- CLQ-149: Portal UI 升级 → 进行中
+  - 修改 run.sh：指定 quantdev conda 环境 Python 路径
+
+### contextum2 (ct2)
+- CLQ-144: 启动项开发 → 进行中
+  - 优化 js/mock.js：/dev/ 路径强制使用模拟数据，生产模式增加错误状态降级
+  - 新增 dev-server.py：开发服务器（待提交）
+
 ## 2026-08-31
 
 ### 休息日
